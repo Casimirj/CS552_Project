@@ -1,4 +1,4 @@
-<php
+<?php
 
     $connectstr_dbhost = '';
 $connectstr_dbname = '';
