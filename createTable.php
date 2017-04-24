@@ -25,7 +25,7 @@ VALUES (1, 'James', 'Casimir', 20)";
 if (mysqli_query($link, $sql)) {
     echo "New record created successfully";
 } else {
-    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    echo "Error:james " . $sql . "<br>" . mysqli_error($link);
 }
 mysqli_close($link);
 
