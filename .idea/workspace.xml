@@ -106,10 +106,10 @@
           <file leaf-file-name="createTable.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/createTable.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+                <state relative-caret-position="360">
+                  <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
                   <folding>
-                    <marker date="1493072615019" expanded="true" signature="657:733" ph="INSERT INTO users... " />
+                    <marker date="1493072731076" expanded="true" signature="657:733" ph="INSERT INTO users... " />
                   </folding>
                 </state>
               </provider>
@@ -316,12 +316,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492980300439</updated>
-      <workItem from="1492980301875" duration="17732000" />
+      <workItem from="1492980301875" duration="17849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17732000" />
+    <option name="totallyTimeSpent" value="17849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -461,10 +461,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/createTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="360">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
-            <marker date="1493072615019" expanded="true" signature="657:733" ph="INSERT INTO users... " />
+            <marker date="1493072731076" expanded="true" signature="657:733" ph="INSERT INTO users... " />
           </folding>
         </state>
       </provider>
