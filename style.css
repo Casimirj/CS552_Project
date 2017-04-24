@@ -1,0 +1,40 @@
+body{
+    height:100vh;
+    background-color: grey !important;
+}
+.header{
+    height:50px;
+    width:100%;
+    background-color: #393939;
+    padding:5px;
+    padding-left:20px;
+}
+.acmelogo{
+    height:100%;
+    background-image: url("images/acmelogo.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.content{
+    width:60%;
+    height:calc(100% - 50px);
+    margin:0 auto;
+    background-color: white;
+}
+
+
+.profile{
+    height:100%;
+    display: inline-block;
+}
+.profile div{
+    display:inline-block;
+    float:right;
+    margin-right:50px;
+    height:100%;
+    line-height: 50px;
+    font-size: 30px;
+    color:#4fc659;
+    vertical-align:middle;
+}
+

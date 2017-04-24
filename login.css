@@ -1,0 +1,175 @@
+body{
+    margin:0;
+    padding:0;
+
+}
+
+
+
+.content{
+    background-image: url("images/yoga.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100%;
+}
+.darkenbackground{
+    background:rgba(0,0,0,.5);
+    content: "";
+    height:100%;
+    width:100%;
+    display: inline-block;
+}
+
+
+
+/*---------------hornet 365/esu logos-----------------*/
+.topcontent{
+    display: flex;
+    align-items: last baseline;
+    text-align: center;
+
+    height: 50%;
+    width:100%;
+}
+.centerbox{
+    margin-left:auto;
+    margin-right:auto;
+}
+.centertext{
+    font-size: 200px;
+    line-height: 1;
+    background-color:rgba(35, 31, 32,.6);
+
+    padding:5px;
+    font-family: "Oswald";
+
+    color: rgb(255, 255, 255);
+    letter-spacing: -0.02em;
+}
+.esutextlogo{
+    /*background-image:url("images/background-login.jpg");*/
+    background-size:contain;
+    background-repeat:no-repeat;
+    height:75px;
+    width:380px;
+
+    margin-left:auto;
+}
+
+
+
+
+/*----------------------Login stuffs-----------------------*/
+.login{
+    width:655px;
+    height:150px;
+    margin: 90px auto 0 auto;
+}
+#logininput, #passinput {
+    width: 310.5px;
+    padding:0 15px;
+    height: 50px;
+}
+#logininput{
+    margin-right:15px;
+}
+#passinput{
+    margin-left:15px;
+}
+.loginbutton{
+    width:200px;
+    height:50px;
+    background-color: #4fc659;
+    float:right;
+    display:inline-block;
+    margin-top:10px;
+    margin-left:10px;
+
+    text-decoration: none !important;
+    font-size:24px;
+
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+
+    font-family: "Oswald";
+
+    color: rgb(255, 255, 255) !important;
+    letter-spacing: -0.02em;
+}
+#forgotpassword{
+    display: inline;
+    font-family: "Oswald";
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+/*------------------------Bottom Bar----------------------------*/
+
+.bottombar{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height:6%;
+}
+.bottombuttoncontainer{
+    height:100%;
+    text-align: center;
+    line-height:100%;
+    display: table;
+    margin-left:26px;
+}
+.bottombutton{
+    height:100%;
+    padding:0 5px !important;
+
+    font-family: "Oswald" !important;
+    color: rgb(255, 255, 255);
+    font-size:1.3em;
+
+
+    vertical-align: middle;
+    display: table-cell;
+    line-height:6vh;
+}
+
+/*-------------------------Bottom Menu------------------------------*/
+
+.bottommenu{
+    height:250px;
+    width:100%;
+    background-color:black;
+    display:none;
+
+    color:white;
+    font-family: "Oswald";
+    font-size:2.5em;
+    padding-top:30px;
+    padding-left:30px;
+}
+
+.quickaccess div{
+
+}
+.innertext{
+    margin-left:90px;
+    font-size: .7em;
+    line-height: 1.6em;
+}
+
+.systemstatus{
+    text-align: right;
+}
+.systemstatus2{
+    background-image: url("images/lazy.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height:100%;
+}
+.assistance{
+    font-size:.6em;
+    text-align: right;
+}

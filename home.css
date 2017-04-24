@@ -1,0 +1,37 @@
+.homepagebutton{
+    height:200px;
+    width:200px;
+    margin:40px;
+
+    display: inline-block;
+
+}
+.buttonimage{
+    height:60%;
+    width:100%;
+    color:white;
+
+    text-align: center;
+    font-size:120px !important;
+
+}
+
+.buttontext{
+    color:white;
+    text-align: center;
+    font-size:24px;
+}
+
+
+.content{
+    padding-top:5%;
+    background-color: unset !important;
+}
+
+
+.buttonwrapper{
+    height:80%;
+    width:100%;
+
+    padding:1px;
+}
