@@ -1,28 +1,33 @@
-<?php
-// DB connection info
-$host = "us-cdbr-azure-southcentral-f.cloudapp.net";
-$user = "bf8932a5a63db8";
-$pwd = "df1075af";
-$db = "database";
-try{
-    $conn = new PDO( "mysql:host=$host;dbname=$db", $user, $pwd);
-    $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-    $sql = "CREATE TABLE registration_tbl(
-                 id INT NOT NULL AUTO_INCREMENT, 
-                 PRIMARY KEY(id),
-                 name VARCHAR(30),
-                 email VARCHAR(30),
-                 date DATE)";
-    $conn->query($sql);
+<php
+
+    $connectstr_dbhost = '';
+$connectstr_dbname = '';
+$connectstr_dbusername = '';
+$connectstr_dbpassword = '';
+
+foreach ($_SERVER as $key => $value) {
+if (strpos($key, "MYSQLCONNSTR_localdb") !== 0) {
+continue;
 }
-catch(Exception $e){
-    die(print_r($e));
+
+$connectstr_dbhost = preg_replace("/^.*Data Source=(.+?);.*$/", "\\1", $value);
+$connectstr_dbname = preg_replace("/^.*Database=(.+?);.*$/", "\\1", $value);
+$connectstr_dbusername = preg_replace("/^.*User Id=(.+?);.*$/", "\\1", $value);
+$connectstr_dbpassword = preg_replace("/^.*Password=(.+?)$/", "\\1", $value);
 }
-echo "<h3>Table created.</h3>";
-?><?php
-/**
- * Created by PhpStorm.
- * User: poop
- * Date: 4/24/17
- * Time: 4:26 PM
- */
+
+$link = mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+
+if (!$link) {
+echo "Error: Unable to connect to MySQL." . PHP_EOL;
+echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
+echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
+exit;
+}
+
+echo "Success: A proper connection to MySQL was made! The my_db database is great." . PHP_EOL;
+echo "Host information: " . mysqli_get_host_info($link) . PHP_EOL;
+
+mysqli_close($link);
+
+    ?>
