@@ -22,7 +22,7 @@ $link = mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_d
 $sql = "INSERT INTO users (id, fname, lname, age)
 VALUES (1, 'James', 'Casimir', 20)";
 
-if ($conn->query($sql) === TRUE) {
+if ($link->query($sql) === TRUE) {
     echo "New record created successfully";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
