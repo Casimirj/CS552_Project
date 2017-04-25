@@ -22,20 +22,24 @@
     //$sql = "INSERT INTO `users` (id, fname, lname, age)
     //VALUES (1, `James`, `Casimir`, 20)";
 
-    if($link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname){
-    $sql="INSERT INTO `users` (`id`,`fname`,`lname`,`age`) VALUES (1, 'James', 'Casimir', 20)";
-    if(mysqli_query($link,$sql)){
-        if(($aff_rows=mysqli_affected_rows($link))>0){
-            echo "New record created successfully ($aff_rows)";
-        }else{
-            echo "Query Logic Error: $sql";
+    if($link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname)){
+        $sql="INSERT INTO `users` (`id`,`fname`,`lname`,`age`) VALUES (1, 'James', 'Casimir', 20)";
+        if(mysqli_query($link,$sql)){
+            if(($aff_rows=mysqli_affected_rows($link))>0){
+                echo "New record created successfully ($aff_rows)";
+            }
+            else{
+                echo "Query Logic Error: $sql";
+            }
         }
-    }else{
-        echo "Syntax Error: ",mysqli_error($link);
+        else{
+            echo "Syntax Error: ",mysqli_error($link);
+        }
+        mysqli_close($link);
+
+    else{
+        echo "Connection Error: ", mysqli_connect_error();
     }
-    mysqli_close($link);
-    }else{
-        echo "Connection Error: ",mysqli_connect_error());
 }
 
     ?>
