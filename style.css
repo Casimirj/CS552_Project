@@ -17,7 +17,7 @@ body{
     background-repeat: no-repeat;
 }
 .content{
-    width:60%;
+    width:1140px;
     height:calc(100% - 50px);
     margin:0 auto;
     background-color: white;
