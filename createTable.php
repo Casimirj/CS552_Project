@@ -34,7 +34,7 @@ if($link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_
             echo "Query Logic Error: $sql";
         }
     } else {
-        echo "Syntax Error: ", mysqli_error($link);
+        echo "Syntax Error:: ", mysqli_error($link);
     }
     mysqli_close($link);
 }
