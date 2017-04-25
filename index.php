@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="login">
-            <form method="post" action="createUser.php"
+            <form method="post" action="createUser.php">
                 <input id="logininput" placeholder="Username" name="logininput">
                 <input id="passinput" placeholder="Password" type="password" name="passinput">
                 <a id="forgotpassword" href="www.google.com">Forgot Password?</a>
