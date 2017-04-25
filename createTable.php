@@ -19,7 +19,7 @@
     $link = mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
     mysqli_error($link);
 
-    $sql = "INSERT INTO `database.users` (id, fname, lname, age)
+    $sql = "INSERT INTO `users` (id, fname, lname, age)
     VALUES (1, 'James', 'Casimir', 20)";
 
     if (mysqli_query($link, $sql)) {
