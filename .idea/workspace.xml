@@ -107,9 +107,9 @@
             <entry file="file://$PROJECT_DIR$/createTable.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="285">
-                  <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                  <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
                   <folding>
-                    <marker date="1493081590489" expanded="true" signature="656:734" ph="INSERT INTO " />
+                    <marker date="1493084443325" expanded="true" signature="744:835" ph="INSERT INTO " />
                   </folding>
                 </state>
               </provider>
@@ -316,12 +316,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492980300439</updated>
-      <workItem from="1492980301875" duration="18763000" />
+      <workItem from="1492980301875" duration="20560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18763000" />
+    <option name="totallyTimeSpent" value="20560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -462,9 +462,9 @@
     <entry file="file://$PROJECT_DIR$/createTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
-            <marker date="1493081590489" expanded="true" signature="656:734" ph="INSERT INTO " />
+            <marker date="1493084443325" expanded="true" signature="744:835" ph="INSERT INTO " />
           </folding>
         </state>
       </provider>
