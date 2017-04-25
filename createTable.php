@@ -20,7 +20,7 @@
     mysqli_error($link);
 
     $sql = "INSERT INTO `users` (id, fname, lname, age)
-    VALUES (1, 'James', 'Casimir', 20)";
+    VALUES (1, `James`, `Casimir`, 20)";
 
     if (mysqli_query($link, $sql)) {
         echo "New record created successfully";
