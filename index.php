@@ -27,6 +27,7 @@
             </div>
         </div>
         <div class="login">
+            
             <input id="logininput" placeholder="Username">
 
             <input id="passinput" placeholder="Password" type="password">
