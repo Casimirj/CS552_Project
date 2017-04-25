@@ -6,7 +6,7 @@
     $connectstr_dbpassword = '';
 
     foreach ($_SERVER as $key => $value) {
-    if (strpos($key, "MYSQLCONNSTR_acmedb") !== 0) { //
+    if (strpos($key, "MYSQLCONNSTR_acmedb") !== 0) {
     continue;
     }
 
@@ -16,8 +16,8 @@
     $connectstr_dbpassword = preg_replace("/^.*Password=(.+?)$/", "\\1", $value);
     }
 
-    $link = mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
-    mysqli_error($link);
+    //$link = mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+    //mysqli_error($link);
 
     //$sql = "INSERT INTO `users` (id, fname, lname, age)
     //VALUES (1, `James`, `Casimir`, 20)";
