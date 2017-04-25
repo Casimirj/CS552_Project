@@ -29,11 +29,11 @@
         }
 
 
-        public function create_user($username, $pass){
+        public function create_user($usernameInput, $passInput){
             global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
 
             if($link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname)) {
-                $sql = "INSERT INTO `users` (`id`,`username`,`password`) VALUES (1, $username, $pass)";
+                $sql = "INSERT INTO `users` (`id`,`username`,`password`) VALUES (1, $usernameInput, $passInput)";
                 if (mysqli_query($link, $sql)) {
                     if (($aff_rows = mysqli_affected_rows($link)) > 0) {
                         echo "New record created successfully ($aff_rows)";
