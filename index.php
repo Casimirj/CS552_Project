@@ -33,7 +33,7 @@
                 <a id="forgotpassword" href="www.google.com">Forgot Password?</a>
                 <a class="loginbutton" href="home.html">Log In</a>
                 <a class="loginbutton" type="submit" value="click">Create Account</a>
-            </form
+            </form>
         </div>
         <a href="#bot" class="bottombar">
             <div class="col-sm-4 bottombuttoncontainer" >
