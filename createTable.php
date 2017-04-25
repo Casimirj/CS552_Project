@@ -7,7 +7,7 @@ $connectstr_dbpassword = '';
 
 foreach ($_SERVER as $key => $value)
 {
-    if (strpos($key, "MYSQLCONNSTR_") !== 0)
+    if (strpos($key, "MYSQLCONNSTR_acmedb") !== 0)
     {
         continue;
     }
