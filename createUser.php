@@ -1,10 +1,15 @@
 <?php
-require_once("acmedb.php");
+require("acmedb.php");
 
-$database = new acmedb();
+$database = new Acmedb();
 
 $database->connect();
 
+$name = $_POST['name'];
+$password = $_POST['password'];
 
+database->create_user($name, $password);
+
+echo "SUCCESS!";
 
 ?>

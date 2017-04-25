@@ -27,15 +27,13 @@
             </div>
         </div>
         <div class="login">
-            
-            <input id="logininput" placeholder="Username">
-
-            <input id="passinput" placeholder="Password" type="password">
-            <a id="forgotpassword" href="www.google.com">Forgot Password?</a>
-            <a class="loginbutton" href="home.html">Log In</a>
-            <a class="loginbutton" href="createUser.html">Create Account</a>
-
-
+            <form method="post" action="createUser.php"
+                <input id="logininput" placeholder="Username" name="logininput">
+                <input id="passinput" placeholder="Password" type="password" name="passinput">
+                <a id="forgotpassword" href="www.google.com">Forgot Password?</a>
+                <a class="loginbutton" href="home.html">Log In</a>
+                <a class="loginbutton" type="submit" value="click">Create Account</a>
+            </form
         </div>
         <a href="#bot" class="bottombar">
             <div class="col-sm-4 bottombuttoncontainer" >
