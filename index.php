@@ -32,7 +32,7 @@
                 <input id="passinput" placeholder="Password" type="password" name="passinput">
                 <a id="forgotpassword" href="www.google.com">Forgot Password?</a>
                 <a class="loginbutton" href="home.html">Log In</a>
-                <input class="loginbutton" type="submit" value="click">Create Account</input>
+                <a class="loginbutton" href="createaccount.php" >Create Account</a>
             </form>
         </div>
         <a href="#bot" class="bottombar">

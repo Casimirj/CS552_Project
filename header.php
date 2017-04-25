@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="home.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -28,4 +27,4 @@
     </div>
 </div>
 
-
+<div class="content">

@@ -20,7 +20,8 @@ body{
     width:1140px;
     height:calc(100% - 50px);
     margin:0 auto;
-    background-color: white;
+    padding-top:5%;
+
 }
 
 
@@ -39,3 +40,34 @@ body{
     vertical-align:middle;
 }
 
+.homepagebutton{
+    height:200px;
+    width:200px;
+    margin:40px;
+
+    display: inline-block;
+
+}
+.buttonimage{
+    height:60%;
+    width:100%;
+    color:white;
+
+    text-align: center;
+    font-size:120px !important;
+
+}
+
+.buttontext{
+    color:white;
+    text-align: center;
+    font-size:24px;
+}
+
+
+.buttonwrapper{
+    height:80%;
+    width:100%;
+
+    padding:1px;
+}
