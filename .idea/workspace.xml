@@ -104,10 +104,10 @@
           <file leaf-file-name="createTable.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/createTable.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+                <state relative-caret-position="375">
+                  <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
                   <folding>
-                    <marker date="1493091607419" expanded="true" signature="973:1056" ph="INSERT INTO `users`... " />
+                    <marker date="1493131192426" expanded="true" signature="923:1006" ph="INSERT INTO `users`... " />
                   </folding>
                 </state>
               </provider>
@@ -319,12 +319,12 @@
       <option name="presentableId" value="Default" />
       <updated>1492980300439</updated>
       <workItem from="1492980301875" duration="23896000" />
-      <workItem from="1493089377417" duration="1975000" />
+      <workItem from="1493089377417" duration="2960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25871000" />
+    <option name="totallyTimeSpent" value="26856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -431,7 +431,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1493091607419" expanded="true" signature="973:1056" ph="INSERT INTO `users`... " />
+            <marker date="1493131192426" expanded="true" signature="923:1006" ph="INSERT INTO `users`... " />
           </folding>
         </state>
       </provider>
@@ -546,10 +546,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/createTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding>
-            <marker date="1493091607419" expanded="true" signature="973:1056" ph="INSERT INTO `users`... " />
+            <marker date="1493131192426" expanded="true" signature="923:1006" ph="INSERT INTO `users`... " />
           </folding>
         </state>
       </provider>
