@@ -11,6 +11,8 @@
         }
 
         public function connect(){
+            global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+
             foreach ($_SERVER as $key => $value)
             {
                 if (strpos($key, "MYSQLCONNSTR_") !== 0)
@@ -29,7 +31,6 @@
 
         public function create_user($username, $pass){
             global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
-
 
             if($link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname)) {
                 $sql = "INSERT INTO `users` (`id`,`username`,`password`) VALUES (1, $username, $pass)";
