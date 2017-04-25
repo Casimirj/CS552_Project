@@ -19,7 +19,9 @@ $connectstr_dbpassword = preg_replace("/^.*Password=(.+?)$/", "\\1", $value);
 $link = mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
 
 
-$sql = "";
+$sql = "INSERT INTO USERS (id, fname, lname, age)
+VALUES (1, 'James', 'Casimir', 20)";
+
 if (mysqli_query($link, $sql)) {
     echo "New record created successfully";
 } else {
