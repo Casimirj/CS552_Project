@@ -1,15 +1,38 @@
+<?php include("header.php");?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php
-require("acmedb.php");
+function create(){
+    require("acmedb.php");
 
-$database = new Acmedb();
+    $database = new Acmedb();
 
-$database->connect();
+    $database->connect();
 
-$name = $_POST['logininput'];
-$password = $_POST['passinput'];
+    $name = $_POST['logininput'];
+    $password = $_POST['passinput'];
 
-$database->create_user($name, $password);
+    $database->create_user($name, $password);
 
-echo "SUCCESS!";
+    echo "SUCCESS!";
+}
+
 
 ?>
