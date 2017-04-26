@@ -21,7 +21,7 @@ $result = mysqli_query($link, $sql);
 $count = mysqli_num_rows($result);
 
 
-if($result){
+if($count == 1){
     $_SESSION['username'] = $usernameinput;
     header('Location: '.'home.php');
 }

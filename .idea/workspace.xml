@@ -76,10 +76,10 @@
           <file leaf-file-name="acmedbLogin.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/acmedbLogin.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+                <state relative-caret-position="345">
+                  <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
                   <folding>
-                    <marker date="1493218092728" expanded="true" signature="256:345" ph="SELECT * FRO... users" />
+                    <marker date="1493218175280" expanded="true" signature="256:345" ph="SELECT * FRO... users" />
                   </folding>
                 </state>
               </provider>
@@ -334,12 +334,12 @@
       <workItem from="1492980301875" duration="23896000" />
       <workItem from="1493089377417" duration="11162000" />
       <workItem from="1493145903981" duration="4705000" />
-      <workItem from="1493150922259" duration="15415000" />
+      <workItem from="1493150922259" duration="15503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55178000" />
+    <option name="totallyTimeSpent" value="55266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -797,10 +797,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acmedbLogin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="345">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
           <folding>
-            <marker date="1493218092728" expanded="true" signature="256:345" ph="SELECT * FRO... users" />
+            <marker date="1493218175280" expanded="true" signature="256:345" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
