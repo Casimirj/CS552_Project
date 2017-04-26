@@ -36,7 +36,7 @@
                 <input id="passinput" placeholder="Password" type="password" name="passinput">
                 <a id="forgotpassword" href="www.google.com">Forgot Password?</a>
                 <input class="loginbutton" type="submit" value="Log In">
-                
+
                 <a class="loginbutton" href="createUser.php" >Create Account</a>
             </form>
         </div>
