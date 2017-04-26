@@ -9,18 +9,19 @@ $database->connect();
 
 
 $usernameinput = $_POST['usernameinput'];
-$passwordinput = $_POST['passwordinput'];
+$passwordinput = $_POST['passinput'];
 
 
 $result = $database->login($usernameinput, $passwordinput);
 
-echo $result;
+
 
 if($result){
     $_SESSION['username'] = $usernameinput;
     header('Location: '.'home.php');
 }
 else{
+    echo $result;
     echo "Login Failed";
 }
 
