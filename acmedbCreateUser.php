@@ -14,7 +14,7 @@
     $lname = $_POST['lnameinput'];
     $email = $_POST['emailinput'];
 
-    if(password === passvalidate){
+    if($password === $passvalidate){
         $database->create_user($username, $password, $fname, $lname, $email);
     }
     else{
