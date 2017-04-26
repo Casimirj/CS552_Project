@@ -1,7 +1,7 @@
 
 
 <?php
-if(isset($post['logininput'])){
+
     require("acmedb.php");
 
     $database = new Acmedb();
@@ -14,7 +14,6 @@ if(isset($post['logininput'])){
     $database->create_user($name, $password);
 
     echo "SUCCESS!";
-}
 
 
 ?>
