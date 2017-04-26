@@ -20,7 +20,7 @@
     else{
         echo "didnt create\n";
     }
-    header("index.php");
+    header('location: '.'index.php');
 
 
 ?>
