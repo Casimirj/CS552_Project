@@ -3,7 +3,7 @@
 
 <div class="createaccounttoptext">Create an Account</div>
 <div class="createuserwrapper">
-    <form method="post" action="createUser.php">
+    <form method="post" action="acmedbCreateUser.php">
 
         <div class="createusertextwrapper">
             <div class="createusertext">First Name</div>
@@ -36,23 +36,3 @@
 
 
 
-
-
-<?php
-if(isset($post['logininput'])){
-    require("acmedb.php");
-
-    $database = new Acmedb();
-
-    $database->connect();
-
-    $name = $_POST['logininput'];
-    $password = $_POST['passinput'];
-
-    $database->create_user($name, $password);
-
-    echo "SUCCESS!";
-}
-
-
-?>
