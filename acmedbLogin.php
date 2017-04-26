@@ -14,6 +14,7 @@ $passwordinput = $_POST['passwordinput'];
 
 $result = $database->login($usernameinput, $passwordinput);
 
+echo $result;
 
 if($result){
     $_SESSION['username'] = $usernameinput;
