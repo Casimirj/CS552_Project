@@ -54,11 +54,8 @@
         public function login($usernameinput, $passwordinput){
             global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
             if($link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname)) {
-                $sql = "SELECT FROM `users` WHERE username = '$usernameinput' AND password = '$passwordinput'";
+                $sql = "SELECT FROM `users` WHERE username = '$usernameinput' and password = '$passwordinput'";
                 $result = mysqli_query($link, $sql);
-
-                $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
-                $active = $row['active'];
 
                 $count = mysqli_num_rows($result);
 
