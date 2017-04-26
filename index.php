@@ -35,7 +35,8 @@
                 <input id="logininput" placeholder="Username" name="usernameinput">
                 <input id="passinput" placeholder="Password" type="password" name="passinput">
                 <a id="forgotpassword" href="www.google.com">Forgot Password?</a>
-                <input class="loginbutton" href="acmedbLogin.php">Log In</input>
+                <input class="loginbutton" type="submit" value="Log In">
+                
                 <a class="loginbutton" href="createUser.php" >Create Account</a>
             </form>
         </div>
