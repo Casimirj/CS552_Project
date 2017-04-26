@@ -31,7 +31,7 @@
             </div>
         </div>
         <div class="login">
-            <form method="post" action="acmedbLogin.php.php">
+            <form method="post" action="acmedbLogin.php">
                 <input id="logininput" placeholder="Username" name="usernameinput">
                 <input id="passinput" placeholder="Password" type="password" name="passinput">
                 <a id="forgotpassword" href="www.google.com">Forgot Password?</a>
