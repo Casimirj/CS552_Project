@@ -1,3 +1,7 @@
+<?php session_start();?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,11 +31,11 @@
             </div>
         </div>
         <div class="login">
-            <form method="post" action="createUser.php">
-                <input id="logininput" placeholder="Username" name="logininput">
+            <form method="post" action="acmedbLogin.php.php">
+                <input id="logininput" placeholder="Username" name="usernameinput">
                 <input id="passinput" placeholder="Password" type="password" name="passinput">
                 <a id="forgotpassword" href="www.google.com">Forgot Password?</a>
-                <a class="loginbutton" href="home.html">Log In</a>
+                <a class="loginbutton" href="acmedbLogin.php">Log In</a>
                 <a class="loginbutton" href="createUser.php" >Create Account</a>
             </form>
         </div>

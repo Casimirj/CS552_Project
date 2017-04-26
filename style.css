@@ -1,7 +1,7 @@
 body{
     height:100vh;
     height:100vh;
-    background: linear-gradient(to bottom left, grey, dimgrey) !important;
+    background: linear-gradient(to bottom left, #969696, dimgrey) !important;
     font-family: "Oswald" !important;
 }
 .header{
