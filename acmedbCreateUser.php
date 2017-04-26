@@ -8,7 +8,7 @@ echo "SUCCESS!lolnah";
 
     $database->connect();
 
-    $name = $_POST['logininput'];
+    $name = $_POST['usernameinput'];
     $password = $_POST['passinput'];
     $fname = $_POST['fnameinput'];
     $lname = $_POST['lnameinput'];
