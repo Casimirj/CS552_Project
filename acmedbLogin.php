@@ -12,8 +12,13 @@ $usernameinput = $_POST['usernameinput'];
 $passwordinput = $_POST['passinput'];
 
 
-$result = $database->login($usernameinput, $passwordinput);
 
+
+//$result = $database->login($usernameinput, $passwordinput);
+$sql = "SELECT * FROM `users` WHERE username = '.$usernameinput' and password = '.$passwordinput'";
+$link = $database->getLink();
+$result = mysqli_query($link, $sql);
+$count = mysqli_num_rows($result);
 
 
 if($result){
