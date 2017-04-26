@@ -86,15 +86,15 @@
           <file leaf-file-name="acmedb.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/acmedb.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="677">
-                  <caret line="63" column="51" lean-forward="true" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
+                <state relative-caret-position="621">
+                  <caret line="67" column="60" lean-forward="true" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
                   <folding>
-                    <marker date="1493177939069" expanded="true" signature="1352:1506" ph="INSERT INTO `users`... " />
-                    <marker date="1493177939069" expanded="true" signature="2404:2443" ph="SELECT passw... users" />
-                    <marker date="1493177939069" expanded="true" signature="2404:2446" ph="SELECT passw... users" />
-                    <marker date="1493177939069" expanded="true" signature="2404:2476" ph="SELECT FROM `users`... " />
-                    <marker date="1493177939069" expanded="true" signature="2404:2477" ph="SELECT FROM `users`... " />
-                    <marker date="1493177939069" expanded="true" signature="2404:2493" ph="SELECT * FRO... users" />
+                    <marker date="1493217870519" expanded="true" signature="1248:1402" ph="INSERT INTO `users`... " />
+                    <marker date="1493217870519" expanded="true" signature="2245:2284" ph="SELECT passw... users" />
+                    <marker date="1493217870519" expanded="true" signature="2245:2287" ph="SELECT passw... users" />
+                    <marker date="1493217870519" expanded="true" signature="2245:2317" ph="SELECT FROM `users`... " />
+                    <marker date="1493217870519" expanded="true" signature="2245:2318" ph="SELECT FROM `users`... " />
+                    <marker date="1493217870519" expanded="true" signature="2245:2334" ph="SELECT * FRO... users" />
                   </folding>
                 </state>
               </provider>
@@ -332,12 +332,12 @@
       <workItem from="1492980301875" duration="23896000" />
       <workItem from="1493089377417" duration="11162000" />
       <workItem from="1493145903981" duration="4705000" />
-      <workItem from="1493150922259" duration="14061000" />
+      <workItem from="1493150922259" duration="15193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53824000" />
+    <option name="totallyTimeSpent" value="54956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -460,12 +460,12 @@
         <state relative-caret-position="525">
           <caret line="35" column="82" lean-forward="true" selection-start-line="35" selection-start-column="82" selection-end-line="35" selection-end-column="82" />
           <folding>
-            <marker date="1493177939069" expanded="true" signature="1352:1506" ph="INSERT INTO `users`... " />
-            <marker date="1493177939069" expanded="true" signature="2404:2443" ph="SELECT passw... users" />
-            <marker date="1493177939069" expanded="true" signature="2404:2446" ph="SELECT passw... users" />
-            <marker date="1493177939069" expanded="true" signature="2404:2476" ph="SELECT FROM `users`... " />
-            <marker date="1493177939069" expanded="true" signature="2404:2477" ph="SELECT FROM `users`... " />
-            <marker date="1493177939069" expanded="true" signature="2404:2493" ph="SELECT * FRO... users" />
+            <marker date="1493217870519" expanded="true" signature="1248:1402" ph="INSERT INTO `users`... " />
+            <marker date="1493217870519" expanded="true" signature="2245:2284" ph="SELECT passw... users" />
+            <marker date="1493217870519" expanded="true" signature="2245:2287" ph="SELECT passw... users" />
+            <marker date="1493217870519" expanded="true" signature="2245:2317" ph="SELECT FROM `users`... " />
+            <marker date="1493217870519" expanded="true" signature="2245:2318" ph="SELECT FROM `users`... " />
+            <marker date="1493217870519" expanded="true" signature="2245:2334" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -551,12 +551,12 @@
         <state relative-caret-position="420">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1493177939069" expanded="true" signature="1352:1506" ph="INSERT INTO `users`... " />
-            <marker date="1493177939069" expanded="true" signature="2404:2443" ph="SELECT passw... users" />
-            <marker date="1493177939069" expanded="true" signature="2404:2446" ph="SELECT passw... users" />
-            <marker date="1493177939069" expanded="true" signature="2404:2476" ph="SELECT FROM `users`... " />
-            <marker date="1493177939069" expanded="true" signature="2404:2477" ph="SELECT FROM `users`... " />
-            <marker date="1493177939069" expanded="true" signature="2404:2493" ph="SELECT * FRO... users" />
+            <marker date="1493217870519" expanded="true" signature="1248:1402" ph="INSERT INTO `users`... " />
+            <marker date="1493217870519" expanded="true" signature="2245:2284" ph="SELECT passw... users" />
+            <marker date="1493217870519" expanded="true" signature="2245:2287" ph="SELECT passw... users" />
+            <marker date="1493217870519" expanded="true" signature="2245:2317" ph="SELECT FROM `users`... " />
+            <marker date="1493217870519" expanded="true" signature="2245:2318" ph="SELECT FROM `users`... " />
+            <marker date="1493217870519" expanded="true" signature="2245:2334" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -788,15 +788,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acmedb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="63" column="51" lean-forward="true" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
+        <state relative-caret-position="621">
+          <caret line="67" column="60" lean-forward="true" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
           <folding>
-            <marker date="1493177939069" expanded="true" signature="1352:1506" ph="INSERT INTO `users`... " />
-            <marker date="1493177939069" expanded="true" signature="2404:2443" ph="SELECT passw... users" />
-            <marker date="1493177939069" expanded="true" signature="2404:2446" ph="SELECT passw... users" />
-            <marker date="1493177939069" expanded="true" signature="2404:2476" ph="SELECT FROM `users`... " />
-            <marker date="1493177939069" expanded="true" signature="2404:2477" ph="SELECT FROM `users`... " />
-            <marker date="1493177939069" expanded="true" signature="2404:2493" ph="SELECT * FRO... users" />
+            <marker date="1493217870519" expanded="true" signature="1248:1402" ph="INSERT INTO `users`... " />
+            <marker date="1493217870519" expanded="true" signature="2245:2284" ph="SELECT passw... users" />
+            <marker date="1493217870519" expanded="true" signature="2245:2287" ph="SELECT passw... users" />
+            <marker date="1493217870519" expanded="true" signature="2245:2317" ph="SELECT FROM `users`... " />
+            <marker date="1493217870519" expanded="true" signature="2245:2318" ph="SELECT FROM `users`... " />
+            <marker date="1493217870519" expanded="true" signature="2245:2334" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
