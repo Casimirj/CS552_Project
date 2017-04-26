@@ -142,8 +142,8 @@ body{
     display:block;
     border:0px;
     margin:15px;
-    padding:15px;
     padding:10px 15px;
+    font-size:1.5em;
     color:#606060;
 }
 #createuserbutton {
