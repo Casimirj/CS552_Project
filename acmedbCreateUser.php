@@ -1,7 +1,7 @@
 
 
 <?php
-
+echo "SUCCESS!lolnah";
     require("acmedb.php");
 
     $database = new Acmedb();
