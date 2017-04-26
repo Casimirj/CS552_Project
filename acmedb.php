@@ -29,7 +29,7 @@
         }
 
 
-        public function create_user($fnameInput, $lnameInput, $emailInput, $usernameInput, $passInput){
+        public function create_user($usernameInput, $passInput, $fnameInput, $lnameInput, $emailInput){
             global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
 
             if($link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname)) {

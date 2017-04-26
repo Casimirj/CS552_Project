@@ -18,8 +18,8 @@
             <input id="lnameinput" class="createuserinput" placeholder="Last Name" name="lnameinput">
             <input id="emailinput" class="createuserinput" placeholder="Email Address" name="emailinput">
             <input id="logininput" class="createuserinput" placeholder="Username" name="usernameinput">
-            <input id="passinput" class="createuserinput" placeholder="Password" name="passinput" type="password" style="padding:10px 15px;">
-            <input id="passvalidate" class="createuserinput" Placeholder="Password" name="passvalidate" type="password" style="padding:10px 15px;">
+            <input id="passinput" class="createuserinput" placeholder="Password" name="passinput" type="password">
+            <input id="passvalidate" class="createuserinput" Placeholder="Password" name="passvalidate" type="password">
         </div>
 
 
