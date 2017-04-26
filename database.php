@@ -21,7 +21,7 @@ foreach ($_SERVER as $key => $value)
 
 
 if($link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname)) {
-    $sql = "INSERT INTO `users` (`id`,`username`,`password`) VALUES (1, `casimirj`, `number_8`)";
+    $sql = "INSERT INTO `users` (`id`,`username`,`password`) VALUES (`casimirj`, `number_8`)";
     if (mysqli_query($link, $sql)) {
         if (($aff_rows = mysqli_affected_rows($link)) > 0) {
             echo "New record created successfully ($aff_rows)";
