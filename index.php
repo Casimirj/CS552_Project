@@ -32,7 +32,7 @@
                 <input id="passinput" placeholder="Password" type="password" name="passinput">
                 <a id="forgotpassword" href="www.google.com">Forgot Password?</a>
                 <a class="loginbutton" href="home.html">Log In</a>
-                <a class="loginbutton" href="createaccount.php" >Create Account</a>
+                <a class="loginbutton" href="createUser.php" >Create Account</a>
             </form>
         </div>
         <a href="#bot" class="bottombar">
@@ -49,28 +49,6 @@
     </div>
 
 </div>
-<div class="bottommenu">
-    <div class="col-sm-2 quickaccess">
-        <span style="color:#4fc659;">Quick</span>&nbspAccess
-        <div class="innertext">SkyPrint</div>
-        <div class="innertext">SkyLab</div>
-        <div class="innertext">Onbase</div>
-    </div>
-    <div class="col-sm-2 systemstatus">
-        <span style="color:#4fc659;">System</span>&nbspStatus
-    </div>
-    <div class="col-sm-4 systemstatus2">
-
-    </div>
-    <div class="col-sm-4 assistance">
-        <p>For assistance, contant the IT HELP DESK</p>
-        <p>(877)341-5555</p>
-        <p>helpdesk@emporia.edu</p>
-        <p>Tweet us: @EmporiaStateHelpdesk</p>
-        <p>Skype: helpdesk@emporia.edu</p>
-
-
-    </div>
 
 </div>
 <a name="bot"/>

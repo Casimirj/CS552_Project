@@ -98,6 +98,7 @@ body{
 
     color: rgb(255, 255, 255) !important;
     letter-spacing: -0.02em;
+    border:0px;
 }
 #forgotpassword{
     display: inline;
