@@ -23,7 +23,7 @@
     <div class="col-sm-2 acmelogo"></div>
     <div class="col-sm-7"></div>
     <div class="col-sm-3 profile">
-        <div><?php $_SESSION['username'];?></div><div class="material-icons" style="margin-right:20px">face</div>
+        <div><?php echo $_SESSION['username'];?></div><div class="material-icons" style="margin-right:20px">face</div>
     </div>
 </div>
 
