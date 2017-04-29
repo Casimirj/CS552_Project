@@ -13,7 +13,8 @@ $result = $database->getUsers();*/
 
 
 
-echo ("<table border='1'>
+echo ("
+<table border='1'>
 <tr>
 <th>ID</th>
 <th>First Name</th>
@@ -36,8 +37,8 @@ echo ("<table border='1'>
         "</tr>"
 
     );
-}
-echo "</table>";*/
+}*/
+echo "</table>";
 
 
 ?>
