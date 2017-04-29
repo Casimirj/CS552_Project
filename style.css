@@ -156,13 +156,15 @@ body{
 
 
 .displayuserstable{
-    border: 1px solid white;
     width:100%;
-    
-
-
 }
-
+.displayuserstable td, .displayuserstable th{
+    border:3px solid white;
+    color:white;
+}
+.displayusersheader{
+    color:white;
+}
 
 
 

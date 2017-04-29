@@ -7,7 +7,7 @@ require("acmedb.php");
 ?>
 
 
-<h1>Users</h1>
+<h1 class="displayusersheader">Users</h1>
 
 
 
