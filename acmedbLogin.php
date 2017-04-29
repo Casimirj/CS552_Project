@@ -25,7 +25,7 @@ if($count == 1){
     $_SESSION['username'] = $usernameinput;
 
 
-    echo $result;
+    echo $result['id'];
 
 
     //$_SESSION['userType'] =

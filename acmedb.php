@@ -86,6 +86,27 @@ class Acmedb {
     }
 
 
+    public function setUserData($id){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $count = "";
+        if($link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname)) {
+            $sql = "SELECT * FROM `users` WHERE id = '" . $id . "'";
+            $result = mysqli_query($link, $sql);
+
+
+
+
+
+
+
+        }
+        else{
+            echo "Connection Error: ", mysqli_connect_error();
+        }
+
+    }
+
+
 
 
 
