@@ -12,6 +12,11 @@
             <div class="createusertext">User Name</div>
             <div class="createusertext">Password</div>
             <div class="createusertext">Re-Enter your Password</div>
+            <?php if($_SESSION['usertype'] == 1){
+                echo("
+                <div class=\"createusertext\">User Type</div>
+                ");
+            }?>
         </div>
         <div class="createuserinputwrapper">
             <input id="fnameinput" class="createuserinput" placeholder="First Name" name="fnameinput">
@@ -23,9 +28,7 @@
 
             <?php if($_SESSION['usertype'] == 1){
                 echo("
-                <input id='userType' class=createuserinput placeholder='User Type' name=usertype>                
-                
-                
+                <input id='userType' class=createuserinput placeholder='User Type' name=usertype>
                 ");
             }?>
         </div>
