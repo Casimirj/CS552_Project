@@ -22,14 +22,9 @@ $count = mysqli_num_rows($result);
 
 
 if($count == 1){
-    $_SESSION['username'] = $usernameinput;
     $result = $result->fetch_assoc();
-
-    echo $result['id'];
-
-
-    //$_SESSION['userType'] =
-    //header('Location: '.'home.php');
+    $database->setUserData(result['id']);
+    header('Location: '.'home.php');
 }
 else{
     echo $result;

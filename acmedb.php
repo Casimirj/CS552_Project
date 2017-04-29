@@ -29,7 +29,7 @@ class Acmedb {
     }
 
 
-    public function create_user($usernameInput, $passInput, $fnameInput, $lnameInput, $emai4lInput){
+    public function create_user($usernameInput, $passInput, $fnameInput, $lnameInput, $emailInput){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
 
         if($link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname)) {
@@ -55,7 +55,7 @@ class Acmedb {
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $count = "";
         if($link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname)) {
-            $sql = "SELECT * FROM `users` WHERE username = '.$usernameinput' and password = '.$passwordinput'";
+            $sql = "SELECT * FROM `users` WHERE username = '".$usernameinput."' and password = '".$passwordinput."'";
             $result = mysqli_query($link, $sql);
             $count = mysqli_num_rows($result);
             if($result != 0){
@@ -91,13 +91,14 @@ class Acmedb {
         $count = "";
         if($link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname)) {
             $sql = "SELECT * FROM `users` WHERE id = '" . $id . "'";
-            $result = mysqli_query($link, $sql);
-
-
-
-
-
-
+            $result = mysqli_query($link, $sql)->fetch_assoc();
+            $_SESSION['loggedin'] = true;
+            $_SESSION['id'] = $result['id'];
+            $_SESSION['username'] = $result['username'];
+            $_SESSION['fname'] = $result['fname'];
+            $_SESSION['lname'] = $result['lname'];
+            $_SESSION['userType'] = $result['userType'];
+            $_SESSION['email'] = $result['email'];
 
         }
         else{
