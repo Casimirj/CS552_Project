@@ -28,7 +28,7 @@ echo ("
 while($row = mysqli_fetch_array($result))
 {
     echo(
-        "<tr>".
+        "<tr>" .
         "<td>" . $row['id']. "</td>".
         "<td>" . $row['fname'] . "</td>".
         "<td>" . $row['lname'] . "</td>".
