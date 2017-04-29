@@ -82,7 +82,7 @@ class Acmedb {
     public function getUsers(){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
-        $sql = "SELECT * FROM `users`";
+        $sql = "SELECT * FROM users";
         $result = mysqli_query($link, $sql);
         $result = $result;
 
