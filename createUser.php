@@ -20,6 +20,14 @@
             <input id="logininput" class="createuserinput" placeholder="Username" name="usernameinput">
             <input id="passinput" class="createuserinput" placeholder="Password" name="passinput" type="password">
             <input id="passvalidate" class="createuserinput" Placeholder="Password" name="passvalidate" type="password">
+
+            <?php if($_SESSION['userType'] == 1){
+                echo("
+                <input id='userType' class=createuserinput placeholder='User Type' name=usertype>                
+                
+                
+                ");
+            }?>
         </div>
 
 
