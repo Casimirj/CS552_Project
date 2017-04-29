@@ -1,7 +1,7 @@
 <?php
 
 include("header.php");
-require_once("acmedb.php");
+require("acmedb.php");
 
 
 
