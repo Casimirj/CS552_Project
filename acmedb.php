@@ -85,7 +85,7 @@ class Acmedb {
         $sql = "SELECT * FROM `users`";
         $result = mysqli_query($link, $sql);
         return $result;
-
+        mysqli_close($database);
     }
 
 

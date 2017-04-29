@@ -10,7 +10,7 @@ $database->connect();
 
 
 $result = $database->getUsers();
-//$result = $result->fetch_assoc();
+
 
 
 echo "<table border='1'>
@@ -39,5 +39,5 @@ while($row = mysqli_fetch_array($result))
 }
 echo "</table>";
 
-mysqli_close($con);
+
 ?>
