@@ -4,16 +4,16 @@ include("header.php");
 
 
 
-$database = new Acmedb();
+/*$database = new Acmedb();
 
 $database->connect();
 
 
-$result = $database->getUsers();
+$result = $database->getUsers();*/
 
 
 
-echo "<table border='1'>
+echo ("<table border='1'>
 <tr>
 <th>ID</th>
 <th>First Name</th>
@@ -22,9 +22,9 @@ echo "<table border='1'>
 <th>Email</th>
 </tr>
 
-";
+");
 
-while($row = mysqli_fetch_array($result))
+/*while($row = mysqli_fetch_array($result))
 {
     echo(
         "<tr>".
@@ -37,7 +37,7 @@ while($row = mysqli_fetch_array($result))
 
     );
 }
-echo "</table>";
+echo "</table>";*/
 
 
 ?>

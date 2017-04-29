@@ -147,11 +147,11 @@
           <file leaf-file-name="displayUsers.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/displayUsers.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="615">
-                  <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+                <state relative-caret-position="300">
+                  <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
                   <folding>
-                    <marker date="1493504293215" expanded="true" signature="143:240" ph="..." />
-                    <marker date="1493504293215" expanded="true" signature="148:238" ph="..." />
+                    <marker date="1493504356064" expanded="true" signature="148:245" ph="..." />
+                    <marker date="1493504356064" expanded="true" signature="153:243" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -204,8 +204,8 @@
         <option value="$PROJECT_DIR$/createUser.php" />
         <option value="$PROJECT_DIR$/acmedbCreateUser.php" />
         <option value="$PROJECT_DIR$/displayusers.php" />
-        <option value="$PROJECT_DIR$/displayUsers.php" />
         <option value="$PROJECT_DIR$/acmedb.php" />
+        <option value="$PROJECT_DIR$/displayUsers.php" />
       </list>
     </option>
   </component>
@@ -373,12 +373,12 @@
       <workItem from="1493145903981" duration="4705000" />
       <workItem from="1493150922259" duration="16564000" />
       <workItem from="1493310467726" duration="3490000" />
-      <workItem from="1493489385186" duration="12139000" />
+      <workItem from="1493489385186" duration="12201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71956000" />
+    <option name="totallyTimeSpent" value="72018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -884,11 +884,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/displayUsers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
-            <marker date="1493504293215" expanded="true" signature="143:240" ph="..." />
-            <marker date="1493504293215" expanded="true" signature="148:238" ph="..." />
+            <marker date="1493504356064" expanded="true" signature="148:245" ph="..." />
+            <marker date="1493504356064" expanded="true" signature="153:243" ph="..." />
           </folding>
         </state>
       </provider>
