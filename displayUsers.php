@@ -4,9 +4,9 @@ include("header.php");
 
 
 
-$database = new Acmedb();
+//$database = new Acmedb();
 
-$database->connect();
+//$database->connect();
 
 
 //$result = $database->getUsers();
