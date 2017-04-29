@@ -104,8 +104,8 @@
           <file leaf-file-name="acmedbCreateUser.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/acmedbCreateUser.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="25" />
+                <state relative-caret-position="75">
+                  <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -124,7 +124,7 @@
           <file leaf-file-name="acmedb.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/acmedb.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="392">
+                <state relative-caret-position="480">
                   <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
                   <folding>
                     <marker date="1493504526399" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
@@ -147,11 +147,12 @@
           <file leaf-file-name="displayUsers.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/displayUsers.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+                <state relative-caret-position="615">
+                  <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
                   <folding>
-                    <marker date="1493504581264" expanded="true" signature="145:242" ph="..." />
-                    <marker date="1493504581264" expanded="true" signature="150:240" ph="..." />
+                    <marker date="1493505020879" expanded="true" signature="147:152" ph="..." />
+                    <marker date="1493505020879" expanded="true" signature="147:244" ph="..." />
+                    <marker date="1493505020879" expanded="true" signature="152:242" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -373,12 +374,12 @@
       <workItem from="1493145903981" duration="4705000" />
       <workItem from="1493150922259" duration="16564000" />
       <workItem from="1493310467726" duration="3490000" />
-      <workItem from="1493489385186" duration="12421000" />
+      <workItem from="1493489385186" duration="12863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72238000" />
+    <option name="totallyTimeSpent" value="72680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -830,14 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acmedbCreateUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -853,17 +846,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/createUser.php">
+    <entry file="file://$PROJECT_DIR$/acmedbCreateUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        <state relative-caret-position="75">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acmedb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="480">
           <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
             <marker date="1493504526399" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
@@ -882,13 +875,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/createUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/displayUsers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        <state relative-caret-position="615">
+          <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
           <folding>
-            <marker date="1493504581264" expanded="true" signature="145:242" ph="..." />
-            <marker date="1493504581264" expanded="true" signature="150:240" ph="..." />
+            <marker date="1493505020879" expanded="true" signature="147:152" ph="..." />
+            <marker date="1493505020879" expanded="true" signature="147:244" ph="..." />
+            <marker date="1493505020879" expanded="true" signature="152:242" ph="..." />
           </folding>
         </state>
       </provider>

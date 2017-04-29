@@ -9,7 +9,7 @@ $database = new Acmedb();
 $database->connect();
 
 
-$result = $database->getUsers();
+//$result = $database->getUsers();
 
 
 
@@ -25,7 +25,7 @@ echo ("
 
 ");
 
-while($row = mysqli_fetch_array($result))
+/*while($row = mysqli_fetch_array($result))
 {
     echo(
         "<tr>" .
@@ -38,6 +38,8 @@ while($row = mysqli_fetch_array($result))
 
     );
 }
+
+*/
 echo "</table>";
 
 
