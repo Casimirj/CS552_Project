@@ -93,14 +93,14 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="acmedbLogin.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="acmedbLogin.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/acmedbLogin.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+                <state relative-caret-position="315">
+                  <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding>
-                    <marker date="1493495645190" expanded="true" signature="256:296" ph="SELECT * FRO... users" />
-                    <marker date="1493495645190" expanded="true" signature="256:351" ph="SELECT * FRO... users" />
+                    <marker date="1493497225590" expanded="true" signature="256:296" ph="SELECT * FRO... users" />
+                    <marker date="1493497225590" expanded="true" signature="256:351" ph="SELECT * FRO... users" />
                   </folding>
                 </state>
               </provider>
@@ -109,8 +109,8 @@
           <file leaf-file-name="acmedbCreateUser.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/acmedbCreateUser.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="86" lean-forward="false" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
+                <state relative-caret-position="375">
+                  <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -126,11 +126,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="acmedb.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="acmedb.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/acmedb.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+                <state relative-caret-position="495">
+                  <caret line="75" column="8" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="76" selection-end-column="29" />
                   <folding>
                     <marker date="1493496995805" expanded="true" signature="1259:1438" ph="INSERT INTO `users`... " />
                     <marker date="1493496995805" expanded="true" signature="2281:2320" ph="SELECT passw... users" />
@@ -191,10 +191,10 @@
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/createUser.php" />
-        <option value="$PROJECT_DIR$/acmedbLogin.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/acmedbCreateUser.php" />
         <option value="$PROJECT_DIR$/acmedb.php" />
+        <option value="$PROJECT_DIR$/acmedbLogin.php" />
       </list>
     </option>
   </component>
@@ -362,12 +362,12 @@
       <workItem from="1493145903981" duration="4705000" />
       <workItem from="1493150922259" duration="16564000" />
       <workItem from="1493310467726" duration="3490000" />
-      <workItem from="1493489385186" duration="6020000" />
+      <workItem from="1493489385186" duration="6244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65837000" />
+    <option name="totallyTimeSpent" value="66061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -801,17 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acmedbLogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <marker date="1493495645190" expanded="true" signature="256:296" ph="SELECT * FRO... users" />
-            <marker date="1493495645190" expanded="true" signature="256:351" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/createUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -822,16 +811,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acmedbCreateUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="86" lean-forward="false" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
+        <state relative-caret-position="375">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acmedb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        <state relative-caret-position="495">
+          <caret line="75" column="8" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="76" selection-end-column="29" />
           <folding>
             <marker date="1493496995805" expanded="true" signature="1259:1438" ph="INSERT INTO `users`... " />
             <marker date="1493496995805" expanded="true" signature="2281:2320" ph="SELECT passw... users" />
@@ -844,6 +833,17 @@
             <marker date="1493496995805" expanded="true" signature="3571:3616" ph="SELECT * FRO... users" />
             <marker date="1493496995805" expanded="true" signature="3571:3617" ph="SELECT * FRO... users" />
             <marker date="1493496995805" expanded="true" signature="3571:3618" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acmedbLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1493497225590" expanded="true" signature="256:296" ph="SELECT * FRO... users" />
+            <marker date="1493497225590" expanded="true" signature="256:351" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
