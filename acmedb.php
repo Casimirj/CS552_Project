@@ -33,7 +33,7 @@ class Acmedb {
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
 
         if($link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname)) {
-            $sql = "INSERT INTO `users` (`username`,`password`, `fname`,`lname`, `email`, `usertype`) VALUES ('$usernameInput', '$passInput', '$fnameInput', '$lnameInput', '$emailInput', '$userType')";
+            $sql = "INSERT INTO `users` (`username`,`password`,`usertype`, `fname`,`lname`, `email`) VALUES ('$usernameInput', '$passInput', '$userType', '$fnameInput', '$lnameInput', '$emailInput')";
             if (mysqli_query($link, $sql)) {
                 if (($aff_rows = mysqli_affected_rows($link)) > 0) {
                     echo "New record created successfully ($aff_rows)";
