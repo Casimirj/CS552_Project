@@ -32,7 +32,7 @@ $result = $database->getUsers();
 
 
 echo ("
-<table border='1'>
+<table class='displayuserstable'>
 <tr>
 <th>ID</th>
 <th>First Name</th>
