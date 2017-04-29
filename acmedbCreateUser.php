@@ -1,5 +1,5 @@
 <?php
-    require("acmedb.php");
+    require_once("acmedb.php");
 
     $database = new Acmedb();
 
@@ -27,7 +27,15 @@
     else{
         echo "didnt create\n";
     }
-    header('location: '.'index.php');
+
+
+    if(isset($_SESSION['loggedin'])){
+        header('location: '.'home.php');
+    }
+    else{
+        header('location: '.'index.php');
+    }
+
 
 
 ?>
