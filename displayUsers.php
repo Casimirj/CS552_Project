@@ -4,12 +4,12 @@ include("header.php");
 
 
 
-/*$database = new Acmedb();
+$database = new Acmedb();
 
 $database->connect();
 
 
-$result = $database->getUsers();*/
+$result = $database->getUsers();
 
 
 
@@ -25,7 +25,7 @@ echo ("
 
 ");
 
-/*while($row = mysqli_fetch_array($result))
+while($row = mysqli_fetch_array($result))
 {
     echo(
         "<tr>".
@@ -37,7 +37,7 @@ echo ("
         "</tr>"
 
     );
-}*/
+}
 echo "</table>";
 
 
