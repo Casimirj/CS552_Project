@@ -11,9 +11,10 @@
     $fname = $_POST['fnameinput'];
     $lname = $_POST['lnameinput'];
     $email = $_POST['emailinput'];
+    $userType;
 
-    if(isset($_POST['userType'])){
-        $userType = $_POST['userType'];
+    if(isset($_POST['usertype'])){
+        $userType = $_POST['usertype'];
     }
     else{
         $userType = 0;

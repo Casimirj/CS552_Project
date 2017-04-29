@@ -28,7 +28,7 @@
 
             <?php if($_SESSION['usertype'] == 1){
                 echo("
-                <input id='userType' class=createuserinput placeholder='User Type' name=usertype>
+                <input id='usertype' class=createuserinput placeholder='User Type' name=usertype>
                 ");
             }?>
         </div>
