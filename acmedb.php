@@ -84,7 +84,7 @@ class Acmedb {
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
         $sql = "SELECT * FROM `users`";
         $result = mysqli_query($link, $sql);
-        $result = $result->fetch_assoc();
+        $result = $result;
 
         ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
 
