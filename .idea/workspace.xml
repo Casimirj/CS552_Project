@@ -30,8 +30,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="750">
-                  <caret line="164" column="1" lean-forward="true" selection-start-line="164" selection-start-column="1" selection-end-line="164" selection-end-column="1" />
+                <state relative-caret-position="720">
+                  <caret line="162" column="18" lean-forward="true" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -350,12 +350,12 @@
       <workItem from="1493145903981" duration="4705000" />
       <workItem from="1493150922259" duration="16564000" />
       <workItem from="1493310467726" duration="3490000" />
-      <workItem from="1493489385186" duration="15972000" />
+      <workItem from="1493489385186" duration="16058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75789000" />
+    <option name="totallyTimeSpent" value="75875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -856,8 +856,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="164" column="1" lean-forward="true" selection-start-line="164" selection-start-column="1" selection-end-line="164" selection-end-column="1" />
+        <state relative-caret-position="720">
+          <caret line="162" column="18" lean-forward="true" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
           <folding />
         </state>
       </provider>
