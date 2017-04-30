@@ -124,11 +124,16 @@
           <file leaf-file-name="displayUsers.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/displayUsers.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+                <state relative-caret-position="510">
+                  <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
                   <folding>
-                    <marker date="1493510558070" expanded="true" signature="237:382" ph="..." />
-                    <marker date="1493510558070" expanded="true" signature="246:380" ph="..." />
+                    <marker date="1493511616238" expanded="true" signature="237:382" ph="..." />
+                    <marker date="1493511616238" expanded="true" signature="246:380" ph="..." />
+                    <marker date="1493511616238" expanded="true" signature="454:746" ph="..." />
+                    <marker date="1493511616238" expanded="true" signature="454:747" ph="..." />
+                    <marker date="1493511616238" expanded="true" signature="454:757" ph="..." />
+                    <marker date="1493511616238" expanded="true" signature="454:782" ph="..." />
+                    <marker date="1493511616238" expanded="true" signature="703:746" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -181,8 +186,8 @@
         <option value="$PROJECT_DIR$/acmedbCreateUser.php" />
         <option value="$PROJECT_DIR$/displayusers.php" />
         <option value="$PROJECT_DIR$/acmedb.php" />
-        <option value="$PROJECT_DIR$/displayUsers.php" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/displayUsers.php" />
       </list>
     </option>
   </component>
@@ -350,12 +355,12 @@
       <workItem from="1493145903981" duration="4705000" />
       <workItem from="1493150922259" duration="16564000" />
       <workItem from="1493310467726" duration="3490000" />
-      <workItem from="1493489385186" duration="16058000" />
+      <workItem from="1493489385186" duration="16745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75875000" />
+    <option name="totallyTimeSpent" value="76562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -843,22 +848,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/displayUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding>
-            <marker date="1493510558070" expanded="true" signature="237:382" ph="..." />
-            <marker date="1493510558070" expanded="true" signature="246:380" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="162" column="18" lean-forward="true" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/displayUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding>
+            <marker date="1493511616238" expanded="true" signature="237:382" ph="..." />
+            <marker date="1493511616238" expanded="true" signature="246:380" ph="..." />
+            <marker date="1493511616238" expanded="true" signature="454:746" ph="..." />
+            <marker date="1493511616238" expanded="true" signature="454:747" ph="..." />
+            <marker date="1493511616238" expanded="true" signature="454:757" ph="..." />
+            <marker date="1493511616238" expanded="true" signature="454:782" ph="..." />
+            <marker date="1493511616238" expanded="true" signature="703:746" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
