@@ -4,27 +4,11 @@ include("header.php");
 require("acmedb.php");
 
 
-?>
-
-
-<h1 class="displayusersheader">Users</h1>
 
 
 
+echo "<h1 class='displayusersheader'>Users</h1>";
 
-
-
-
-
-
-
-
-
-
-
-
-
-<?php
 
 $database = new Acmedb();
 $database->connect();
@@ -32,14 +16,14 @@ $result = $database->getUsers();
 
 
 echo ("
-<table class='displayuserstable'>
-<tr>
-<th>ID</th>
-<th>First Name</th>
-<th>Last Name</th>
-<th>Username</th>
-<th>Email</th>
-</tr>
+    <table class='displayuserstable'>
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Username</th>
+        <th>Email</th>
+    </tr>
 
 ");
 

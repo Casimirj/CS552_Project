@@ -1,7 +1,7 @@
 body{
     height:100vh;
     height:100vh;
-    background: linear-gradient(to bottom left, #969696, dimgrey) !important;
+    background: linear-gradient(to bottom left, #969696, dimgrey) fixed !important;
     font-family: "Oswald" !important;
 }
 .header{
@@ -160,7 +160,8 @@ body{
 }
 .displayuserstable td, .displayuserstable th{
     border:3px solid white;
-    color:white;
+    padding: 10px;
+    font-size:1.5em;
 }
 .displayusersheader{
     color:white;

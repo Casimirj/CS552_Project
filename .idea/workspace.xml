@@ -30,8 +30,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="677">
-                  <caret line="165" column="16" lean-forward="false" selection-start-line="165" selection-start-column="16" selection-end-line="165" selection-end-column="16" />
+                <state relative-caret-position="750">
+                  <caret line="164" column="1" lean-forward="true" selection-start-line="164" selection-start-column="1" selection-end-line="164" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -124,11 +124,11 @@
           <file leaf-file-name="displayUsers.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/displayUsers.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
                   <folding>
-                    <marker date="1493510246499" expanded="true" signature="248:345" ph="..." />
-                    <marker date="1493510246499" expanded="true" signature="253:343" ph="..." />
+                    <marker date="1493510558070" expanded="true" signature="237:382" ph="..." />
+                    <marker date="1493510558070" expanded="true" signature="246:380" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -350,12 +350,12 @@
       <workItem from="1493145903981" duration="4705000" />
       <workItem from="1493150922259" duration="16564000" />
       <workItem from="1493310467726" duration="3490000" />
-      <workItem from="1493489385186" duration="15372000" />
+      <workItem from="1493489385186" duration="15972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75189000" />
+    <option name="totallyTimeSpent" value="75789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -845,19 +845,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/displayUsers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="135">
+          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
           <folding>
-            <marker date="1493510246499" expanded="true" signature="248:345" ph="..." />
-            <marker date="1493510246499" expanded="true" signature="253:343" ph="..." />
+            <marker date="1493510558070" expanded="true" signature="237:382" ph="..." />
+            <marker date="1493510558070" expanded="true" signature="246:380" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="165" column="16" lean-forward="false" selection-start-line="165" selection-start-column="16" selection-end-line="165" selection-end-column="16" />
+        <state relative-caret-position="750">
+          <caret line="164" column="1" lean-forward="true" selection-start-line="164" selection-start-column="1" selection-end-line="164" selection-end-column="1" />
           <folding />
         </state>
       </provider>
