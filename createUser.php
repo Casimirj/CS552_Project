@@ -3,7 +3,7 @@
 
 <div class="createaccounttoptext">Create an Account</div>
 <div class="createuserwrapper">
-    <form method="post" action="database/acmedbCreateUser.php">
+    <form method="post" action="acmedbCreateUser.php">
 
         <div class="createusertextwrapper">
             <div class="createusertext">First Name</div>
