@@ -24,7 +24,7 @@ $count = mysqli_num_rows($result);
 if($count == 1){
     $result = $result->fetch_assoc();
     $database->setUserData($result['id']);
-    header('Location: '.'home.php');
+    header('Location: ../home.php');
 }
 else{
     echo $result;

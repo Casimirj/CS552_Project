@@ -30,10 +30,10 @@
 
 
     if(isset($_SESSION['loggedin'])){
-        header('location: '.'home.php');
+        header('location: ../home.php');
     }
     else{
-        header('location: '.'index.php');
+        header('location: ../index.php');
     }
 
 
