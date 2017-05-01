@@ -39,7 +39,7 @@ while($row = mysqli_fetch_array($result))
             $target = $_SESSION['target'];
             $targetname = $_SESSION['targetname'];
 
-            echo "<td><a href='".$target."' ".$row['id']."\">".$targetname."</a></td>";
+            echo "<td><a href='".$target."'".$row['id']."\">".$targetname."</a></td>";
         }
 
         echo"</tr>";
