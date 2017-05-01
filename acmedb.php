@@ -96,6 +96,14 @@ class Acmedb {
 
         return $result;
     }
+    public function getTraineeSchedule($id){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+        $sql = "SELECT * FROM `enrollment` where userID = '".$id."'";
+        $result = mysqli_query($link, $sql);
+
+        return $result;
+    }
     public function getBill($id){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
