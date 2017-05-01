@@ -26,7 +26,7 @@
 <body>
 
 <div class="header">
-    <div class="col-sm-2 acmelogo"></div>
+    <a href="home.php"><div class="col-sm-2 acmelogo"></div></a>
     <div class="col-sm-7"></div>
     <div class="col-sm-3 profile">
         <div><?php echo $_SESSION['name'];?></div><div class="material-icons" style="margin-right:20px">face</div>
