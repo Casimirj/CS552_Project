@@ -89,11 +89,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="displayusersTable.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="displayusersTable.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/displayusersTable.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="508">
-                  <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+                <state relative-caret-position="593">
+                  <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
                   <folding>
                     <marker date="1493670130433" expanded="true" signature="214:359" ph="..." />
                     <marker date="1493670130433" expanded="true" signature="223:357" ph="..." />
@@ -115,44 +115,32 @@
           <file leaf-file-name="acmedb.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/acmedb.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+                <state relative-caret-position="221">
+                  <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
                   <folding>
-                    <marker date="1493669536082" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
-                    <marker date="1493669536082" expanded="true" signature="2229:2267" ph="DELETE FROM " />
-                    <marker date="1493669536082" expanded="true" signature="2667:2762" ph="SELECT * FRO... users" />
-                    <marker date="1493669536082" expanded="true" signature="3636:3657" ph="SELECT * FRO... users" />
-                    <marker date="1493669536082" expanded="true" signature="4007:4030" ph="SELECT * FRO... courses" />
-                    <marker date="1493669536082" expanded="true" signature="4390:4422" ph="SELECT * FRO... courses" />
-                    <marker date="1493669536082" expanded="true" signature="4390:4433" ph="SELECT * FRO... enrollment" />
-                    <marker date="1493669536082" expanded="true" signature="4390:4441" ph="SELECT * FRO... enrollment" />
-                    <marker date="1493669536082" expanded="true" signature="4790:4854" ph="SELECT * FRO... enrollment" />
-                    <marker date="1493669536082" expanded="true" signature="4994:5059" ph="SELECT total... courses" />
-                    <marker date="1493669536082" expanded="true" signature="5455:5497" ph="SELECT * FRO... users" />
-                    <marker date="1493669536082" expanded="true" signature="6238:6284" ph="SELECT * FRO... users" />
+                    <marker date="1493670651303" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
+                    <marker date="1493670651303" expanded="true" signature="2229:2267" ph="DELETE FROM " />
+                    <marker date="1493670651303" expanded="true" signature="2638:2733" ph="SELECT * FRO... users" />
+                    <marker date="1493670651303" expanded="true" signature="3607:3628" ph="SELECT * FRO... users" />
+                    <marker date="1493670651303" expanded="true" signature="3978:4001" ph="SELECT * FRO... courses" />
+                    <marker date="1493670651303" expanded="true" signature="4361:4393" ph="SELECT * FRO... courses" />
+                    <marker date="1493670651303" expanded="true" signature="4361:4404" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493670651303" expanded="true" signature="4361:4412" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493670651303" expanded="true" signature="4761:4825" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493670651303" expanded="true" signature="4965:5030" ph="SELECT total... courses" />
+                    <marker date="1493670651303" expanded="true" signature="5426:5468" ph="SELECT * FRO... users" />
+                    <marker date="1493670651303" expanded="true" signature="6209:6255" ph="SELECT * FRO... users" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="acmedbDeleteUser.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="acmedbDeleteUser.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/acmedbDeleteUser.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="createUser.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/createUser.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="296">
-                  <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-                  <folding>
-                    <marker date="1493669984047" expanded="true" signature="1664:1679" ph="..." />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -210,11 +198,11 @@
         <option value="$PROJECT_DIR$/displayCourses.php" />
         <option value="$PROJECT_DIR$/displayCoursesTable.php" />
         <option value="$PROJECT_DIR$/deleteUser.php" />
-        <option value="$PROJECT_DIR$/acmedb.php" />
-        <option value="$PROJECT_DIR$/acmedbDeleteUser.php" />
         <option value="$PROJECT_DIR$/acmedbCreateUser.php" />
         <option value="$PROJECT_DIR$/createUser.php" />
         <option value="$PROJECT_DIR$/displayusersTable.php" />
+        <option value="$PROJECT_DIR$/acmedb.php" />
+        <option value="$PROJECT_DIR$/acmedbDeleteUser.php" />
       </list>
     </option>
   </component>
@@ -417,7 +405,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84094000" />
+    <option name="totallyTimeSpent" value="84630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,18 +471,18 @@
         <state relative-caret-position="525">
           <caret line="35" column="82" lean-forward="true" selection-start-line="35" selection-start-column="82" selection-end-line="35" selection-end-column="82" />
           <folding>
-            <marker date="1493669536082" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
-            <marker date="1493669536082" expanded="true" signature="2229:2267" ph="DELETE FROM " />
-            <marker date="1493669536082" expanded="true" signature="2667:2762" ph="SELECT * FRO... users" />
-            <marker date="1493669536082" expanded="true" signature="3636:3657" ph="SELECT * FRO... users" />
-            <marker date="1493669536082" expanded="true" signature="4007:4030" ph="SELECT * FRO... courses" />
-            <marker date="1493669536082" expanded="true" signature="4390:4422" ph="SELECT * FRO... courses" />
-            <marker date="1493669536082" expanded="true" signature="4390:4433" ph="SELECT * FRO... enrollment" />
-            <marker date="1493669536082" expanded="true" signature="4390:4441" ph="SELECT * FRO... enrollment" />
-            <marker date="1493669536082" expanded="true" signature="4790:4854" ph="SELECT * FRO... enrollment" />
-            <marker date="1493669536082" expanded="true" signature="4994:5059" ph="SELECT total... courses" />
-            <marker date="1493669536082" expanded="true" signature="5455:5497" ph="SELECT * FRO... users" />
-            <marker date="1493669536082" expanded="true" signature="6238:6284" ph="SELECT * FRO... users" />
+            <marker date="1493670651303" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
+            <marker date="1493670651303" expanded="true" signature="2229:2267" ph="DELETE FROM " />
+            <marker date="1493670651303" expanded="true" signature="2638:2733" ph="SELECT * FRO... users" />
+            <marker date="1493670651303" expanded="true" signature="3607:3628" ph="SELECT * FRO... users" />
+            <marker date="1493670651303" expanded="true" signature="3978:4001" ph="SELECT * FRO... courses" />
+            <marker date="1493670651303" expanded="true" signature="4361:4393" ph="SELECT * FRO... courses" />
+            <marker date="1493670651303" expanded="true" signature="4361:4404" ph="SELECT * FRO... enrollment" />
+            <marker date="1493670651303" expanded="true" signature="4361:4412" ph="SELECT * FRO... enrollment" />
+            <marker date="1493670651303" expanded="true" signature="4761:4825" ph="SELECT * FRO... enrollment" />
+            <marker date="1493670651303" expanded="true" signature="4965:5030" ph="SELECT total... courses" />
+            <marker date="1493670651303" expanded="true" signature="5426:5468" ph="SELECT * FRO... users" />
+            <marker date="1493670651303" expanded="true" signature="6209:6255" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -572,18 +560,18 @@
         <state relative-caret-position="420">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1493669536082" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
-            <marker date="1493669536082" expanded="true" signature="2229:2267" ph="DELETE FROM " />
-            <marker date="1493669536082" expanded="true" signature="2667:2762" ph="SELECT * FRO... users" />
-            <marker date="1493669536082" expanded="true" signature="3636:3657" ph="SELECT * FRO... users" />
-            <marker date="1493669536082" expanded="true" signature="4007:4030" ph="SELECT * FRO... courses" />
-            <marker date="1493669536082" expanded="true" signature="4390:4422" ph="SELECT * FRO... courses" />
-            <marker date="1493669536082" expanded="true" signature="4390:4433" ph="SELECT * FRO... enrollment" />
-            <marker date="1493669536082" expanded="true" signature="4390:4441" ph="SELECT * FRO... enrollment" />
-            <marker date="1493669536082" expanded="true" signature="4790:4854" ph="SELECT * FRO... enrollment" />
-            <marker date="1493669536082" expanded="true" signature="4994:5059" ph="SELECT total... courses" />
-            <marker date="1493669536082" expanded="true" signature="5455:5497" ph="SELECT * FRO... users" />
-            <marker date="1493669536082" expanded="true" signature="6238:6284" ph="SELECT * FRO... users" />
+            <marker date="1493670651303" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
+            <marker date="1493670651303" expanded="true" signature="2229:2267" ph="DELETE FROM " />
+            <marker date="1493670651303" expanded="true" signature="2638:2733" ph="SELECT * FRO... users" />
+            <marker date="1493670651303" expanded="true" signature="3607:3628" ph="SELECT * FRO... users" />
+            <marker date="1493670651303" expanded="true" signature="3978:4001" ph="SELECT * FRO... courses" />
+            <marker date="1493670651303" expanded="true" signature="4361:4393" ph="SELECT * FRO... courses" />
+            <marker date="1493670651303" expanded="true" signature="4361:4404" ph="SELECT * FRO... enrollment" />
+            <marker date="1493670651303" expanded="true" signature="4361:4412" ph="SELECT * FRO... enrollment" />
+            <marker date="1493670651303" expanded="true" signature="4761:4825" ph="SELECT * FRO... enrollment" />
+            <marker date="1493670651303" expanded="true" signature="4965:5030" ph="SELECT total... courses" />
+            <marker date="1493670651303" expanded="true" signature="5426:5468" ph="SELECT * FRO... users" />
+            <marker date="1493670651303" expanded="true" signature="6209:6255" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -769,37 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acmedb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-          <folding>
-            <marker date="1493669536082" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
-            <marker date="1493669536082" expanded="true" signature="2229:2267" ph="DELETE FROM " />
-            <marker date="1493669536082" expanded="true" signature="2667:2762" ph="SELECT * FRO... users" />
-            <marker date="1493669536082" expanded="true" signature="3636:3657" ph="SELECT * FRO... users" />
-            <marker date="1493669536082" expanded="true" signature="4007:4030" ph="SELECT * FRO... courses" />
-            <marker date="1493669536082" expanded="true" signature="4390:4422" ph="SELECT * FRO... courses" />
-            <marker date="1493669536082" expanded="true" signature="4390:4433" ph="SELECT * FRO... enrollment" />
-            <marker date="1493669536082" expanded="true" signature="4390:4441" ph="SELECT * FRO... enrollment" />
-            <marker date="1493669536082" expanded="true" signature="4790:4854" ph="SELECT * FRO... enrollment" />
-            <marker date="1493669536082" expanded="true" signature="4994:5059" ph="SELECT total... courses" />
-            <marker date="1493669536082" expanded="true" signature="5455:5497" ph="SELECT * FRO... users" />
-            <marker date="1493669536082" expanded="true" signature="6238:6284" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <marker date="1493669984047" expanded="true" signature="1664:1679" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acmedbCreateUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -808,22 +765,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acmedbDeleteUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/displayusersTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        <state relative-caret-position="593">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <marker date="1493670130433" expanded="true" signature="214:359" ph="..." />
             <marker date="1493670130433" expanded="true" signature="223:357" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acmedb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <marker date="1493670651303" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
+            <marker date="1493670651303" expanded="true" signature="2229:2267" ph="DELETE FROM " />
+            <marker date="1493670651303" expanded="true" signature="2638:2733" ph="SELECT * FRO... users" />
+            <marker date="1493670651303" expanded="true" signature="3607:3628" ph="SELECT * FRO... users" />
+            <marker date="1493670651303" expanded="true" signature="3978:4001" ph="SELECT * FRO... courses" />
+            <marker date="1493670651303" expanded="true" signature="4361:4393" ph="SELECT * FRO... courses" />
+            <marker date="1493670651303" expanded="true" signature="4361:4404" ph="SELECT * FRO... enrollment" />
+            <marker date="1493670651303" expanded="true" signature="4361:4412" ph="SELECT * FRO... enrollment" />
+            <marker date="1493670651303" expanded="true" signature="4761:4825" ph="SELECT * FRO... enrollment" />
+            <marker date="1493670651303" expanded="true" signature="4965:5030" ph="SELECT total... courses" />
+            <marker date="1493670651303" expanded="true" signature="5426:5468" ph="SELECT * FRO... users" />
+            <marker date="1493670651303" expanded="true" signature="6209:6255" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <marker date="1493669984047" expanded="true" signature="1664:1679" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acmedbDeleteUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

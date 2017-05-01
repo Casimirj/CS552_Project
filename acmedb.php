@@ -57,7 +57,6 @@ class Acmedb {
         $sql = "DELETE FROM `users` WHERE id='".$id."'";
         mysqli_query($link, $sql);
 
-        mysqli_close($link);
     }
 
     public function login($usernameinput, $passwordinput){
