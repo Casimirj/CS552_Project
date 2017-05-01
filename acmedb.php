@@ -87,6 +87,7 @@ class Acmedb {
 
         return $result;
     }
+
     public function getCourses(){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
@@ -110,6 +111,22 @@ class Acmedb {
         }
         return $bill;
 
+    }
+    public function getName($id){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+        $sql = "SELECT fname FROM `users` WHERE id = '".$id."'";
+        $result = mysqli_query($link, $sql)->fetch_assoc();
+
+        $name = $result;
+
+        $sql = "SELECT lname FROM `users` WHERE id = '".$id."'";
+        $result = mysqli_query($link, $sql)->fetch_assoc();
+
+        $name .= $result;
+
+
+        return $name;
     }
 
 
