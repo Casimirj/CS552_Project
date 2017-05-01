@@ -20,9 +20,9 @@ else if($_SESSION['usertype'] == 1){ //full admin
         <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">add_to_queue</div><div class=\"buttontext\">Add Course</div></a>
         <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">remove_from_queue</div><div class=\"buttontext\">Delete Course</div></a>
         <a class=\"homepagebutton\" href=\"createUser.php\"><div class=\"buttonimage material-icons\">add_circle</div><div class=\"buttontext\">Add User</div></a>
-        <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">remove_circle</div><div class=\"buttontext\">Delete User</div></a>
+        <a class=\"homepagebutton\" href='displayUsers.php'><div class=\"buttonimage material-icons\">remove_circle</div><div class=\"buttontext\">Delete User</div></a>
         <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">accessibility</div><div class=\"buttontext\">Enroll User</div></a>
-        <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">polymer</div><div class=\"buttontext\">Remove User from Course</div></a>
+        <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">polymer</div><div class=\"buttontext\">Remove from Course</div></a>
         <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">perm_identity</div><div class=\"buttontext\">Payroll</div></a>
         <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">receipt</div><div class=\"buttontext\">Billing</div></a>
         <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">assessment</div><div class=\"buttontext\">Reports</div></a>
@@ -43,9 +43,9 @@ if($_SESSION['usertype'] == 3){ //registrar
         <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">add_to_queue</div><div class=\"buttontext\">Add Course</div></a>
         <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">remove_from_queue</div><div class=\"buttontext\">Delete Course</div></a>
         <a class=\"homepagebutton\" href=\"createUser.php\"><div class=\"buttonimage material-icons\">add_circle</div><div class=\"buttontext\">Add User</div></a>
-        <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">remove_circle</div><div class=\"buttontext\">Delete User</div></a>
+        <a class=\"homepagebutton\" href='displayUsers.php'><div class=\"buttonimage material-icons\">remove_circle</div><div class=\"buttontext\">Delete User</div></a>
         <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">accessibility</div><div class=\"buttontext\">Enroll User</div></a>
-        <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">polymer</div><div class=\"buttontext\">Remove User from Course</div></a>
+        <a class=\"homepagebutton\"><div class=\"buttonimage material-icons\">polymer</div><div class=\"buttontext\">Remove from course</div></a>
     
     ");
 }

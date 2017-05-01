@@ -161,6 +161,7 @@ class Acmedb {
             $_SESSION['username'] = $result['username'];
             $_SESSION['fname'] = $result['fname'];
             $_SESSION['lname'] = $result['lname'];
+            $_SESSION['name'] = $result['fname']." ".$result['lname'];
             $_SESSION['usertype'] = $result['usertype'];
             $_SESSION['email'] = $result['email'];
 
