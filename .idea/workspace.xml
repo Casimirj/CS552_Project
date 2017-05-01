@@ -102,17 +102,17 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="acmedbCreateUser.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="acmedbCreateUser.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/acmedbCreateUser.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="595">
+                  <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="acmedb.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="acmedb.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/acmedb.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="306">
@@ -186,7 +186,6 @@
         <option value="$PROJECT_DIR$/database.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/acmedbLogin.php" />
-        <option value="$PROJECT_DIR$/acmedbCreateUser.php" />
         <option value="$PROJECT_DIR$/displayusers.php" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/profile.php" />
@@ -203,6 +202,7 @@
         <option value="$PROJECT_DIR$/deleteUser.php" />
         <option value="$PROJECT_DIR$/acmedb.php" />
         <option value="$PROJECT_DIR$/acmedbDeleteUser.php" />
+        <option value="$PROJECT_DIR$/acmedbCreateUser.php" />
       </list>
     </option>
   </component>
@@ -405,7 +405,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83659000" />
+    <option name="totallyTimeSpent" value="83837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -753,14 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acmedbCreateUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/displayusersTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
@@ -812,6 +804,14 @@
             <marker date="1493669536082" expanded="true" signature="5455:5497" ph="SELECT * FRO... users" />
             <marker date="1493669536082" expanded="true" signature="6238:6284" ph="SELECT * FRO... users" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acmedbCreateUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
