@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="styles/login.css">
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -31,7 +31,7 @@
             </div>
         </div>
         <div class="login">
-            <form method="post" action="acmedbLogin.php">
+            <form method="post" action="database/acmedbLogin.php">
                 <input id="logininput" placeholder="Username" name="usernameinput">
                 <input id="passinput" placeholder="Password" type="password" name="passinput">
                 <a id="forgotpassword" href="www.google.com">Forgot Password?</a>

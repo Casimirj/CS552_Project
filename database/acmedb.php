@@ -82,10 +82,34 @@ class Acmedb {
     public function getUsers(){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
-        $sql = "SELECT * FROM users";
+        $sql = "SELECT * FROM `users`";
         $result = mysqli_query($link, $sql);
 
         return $result;
+    }
+    public function getCourses(){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+        $sql = "SELECT * FROM `courses`";
+        $result = mysqli_query($link, $sql);
+
+        return $result;
+    }
+    public function getBill($id){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+        $sql = "SELECT * FROM `enrollment` WHERE userID = '".$id."' and paid = 0";
+        $result = mysqli_query($link, $sql);
+
+        $bill = 0;
+        while($row = mysqli_fetch_array($result)) {
+            $sql = "SELECT totalTime FROM `courses` WHERE id = '".$row['courseID']."'";
+            $hours = mysqli_query($link, $sql);
+
+            $bill += $hours * 10;
+        }
+        return $bill;
+
     }
 
 
