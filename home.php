@@ -1,6 +1,6 @@
 <?php
 
-include("../displaystuff/header.php");
+include("header.php");
 
 
 

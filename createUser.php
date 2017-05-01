@@ -1,4 +1,4 @@
-<?php include("../displaystuff/header.php");?>
+<?php include("header.php");?>
 
 
 <div class="createaccounttoptext">Create an Account</div>

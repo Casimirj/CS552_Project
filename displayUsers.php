@@ -1,7 +1,7 @@
 <?php
 
-include("../displaystuff/header.php");
-include("../displaystuff/displayusersTable.php");
+include("header.php");
+include("displayusersTable.php");
 
 
 ?>

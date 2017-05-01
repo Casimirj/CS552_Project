@@ -13,7 +13,7 @@ body{
 }
 .acmelogo{
     height:100%;
-    background-image: url("../images/acmelogo.png");
+    background-image: url("images/acmelogo.png");
     background-size:contain;
     background-repeat: no-repeat;
 }
