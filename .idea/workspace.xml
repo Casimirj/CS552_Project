@@ -51,37 +51,36 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="acmedb.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="acmedb.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/acmedb.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="330">
-                  <caret line="118" column="59" lean-forward="false" selection-start-line="118" selection-start-column="59" selection-end-line="118" selection-end-column="59" />
+                  <caret line="121" column="54" lean-forward="true" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
                   <folding>
-                    <marker date="1493610187752" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
-                    <marker date="1493610187752" expanded="true" signature="2280:2319" ph="SELECT passw... users" />
-                    <marker date="1493610187752" expanded="true" signature="2280:2320" ph="SELECT * FRO... users" />
-                    <marker date="1493610187752" expanded="true" signature="2280:2323" ph="SELECT passw... users" />
-                    <marker date="1493610187752" expanded="true" signature="2280:2355" ph="SELECT FROM `users`... " />
-                    <marker date="1493610187752" expanded="true" signature="2280:2356" ph="SELECT FROM `users`... " />
-                    <marker date="1493610187752" expanded="true" signature="2280:2375" ph="SELECT * FRO... users" />
-                    <marker date="1493610187752" expanded="true" signature="3249:3269" ph="SELECT * FRO... users" />
-                    <marker date="1493610187752" expanded="true" signature="3249:3270" ph="SELECT * FRO... users" />
-                    <marker date="1493610187752" expanded="true" signature="3620:3634" ph="SELECT * FRO... users" />
-                    <marker date="1493610187752" expanded="true" signature="3620:3643" ph="SELECT * FRO... courses" />
-                    <marker date="1493610187752" expanded="true" signature="3992:4018" ph="SELECT * FRO... enrollment" />
-                    <marker date="1493610187752" expanded="true" signature="3992:4025" ph="SELECT * FRO... enrollment" />
-                    <marker date="1493610187752" expanded="true" signature="3992:4035" ph="SELECT * FRO... enrollment" />
-                    <marker date="1493610187752" expanded="true" signature="3992:4055" ph="SELECT * FRO... enrollment" />
-                    <marker date="1493610187752" expanded="true" signature="3992:4056" ph="SELECT * FRO... enrollment" />
-                    <marker date="1493610187752" expanded="true" signature="3992:4102" ph="SELECT * FRO... enrollment" />
-                    <marker date="1493610187752" expanded="true" signature="4196:4240" ph="SELECT * FRO... courses" />
-                    <marker date="1493610187752" expanded="true" signature="4196:4261" ph="SELECT * FRO... courses" />
-                    <marker date="1493610187752" expanded="true" signature="4656:4702" ph="SELECT fname... users" />
-                    <marker date="1493610187752" expanded="true" signature="4808:4854" ph="SELECT lname... users" />
-                    <marker date="1493610187752" expanded="true" signature="5566:5600" ph="SELECT * FRO... users" />
-                    <marker date="1493610187752" expanded="true" signature="5566:5611" ph="SELECT * FRO... users" />
-                    <marker date="1493610187752" expanded="true" signature="5566:5612" ph="SELECT * FRO... users" />
-                    <marker date="1493610187752" expanded="true" signature="5566:5613" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
+                    <marker date="1493610736543" expanded="true" signature="2280:2319" ph="SELECT passw... users" />
+                    <marker date="1493610736543" expanded="true" signature="2280:2320" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="2280:2323" ph="SELECT passw... users" />
+                    <marker date="1493610736543" expanded="true" signature="2280:2355" ph="SELECT FROM `users`... " />
+                    <marker date="1493610736543" expanded="true" signature="2280:2356" ph="SELECT FROM `users`... " />
+                    <marker date="1493610736543" expanded="true" signature="2280:2375" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="3249:3269" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="3249:3270" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="3620:3634" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="3620:3643" ph="SELECT * FRO... courses" />
+                    <marker date="1493610736543" expanded="true" signature="3992:4018" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493610736543" expanded="true" signature="3992:4025" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493610736543" expanded="true" signature="3992:4035" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493610736543" expanded="true" signature="3992:4055" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493610736543" expanded="true" signature="3992:4056" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493610736543" expanded="true" signature="3992:4102" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493610736543" expanded="true" signature="4196:4240" ph="SELECT * FRO... courses" />
+                    <marker date="1493610736543" expanded="true" signature="4196:4261" ph="SELECT * FRO... courses" />
+                    <marker date="1493610736543" expanded="true" signature="4657:4699" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="5440:5474" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="5440:5485" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="5440:5486" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="5440:5487" ph="SELECT * FRO... users" />
                   </folding>
                 </state>
               </provider>
@@ -100,11 +99,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="displayCoursesTable.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="displayCoursesTable.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/displayCoursesTable.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+                <state relative-caret-position="510">
+                  <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
                   <folding>
                     <marker date="1493610577863" expanded="true" signature="217:364" ph="..." />
                     <marker date="1493610577863" expanded="true" signature="226:362" ph="..." />
@@ -176,9 +175,9 @@
         <option value="$PROJECT_DIR$/createUser.php" />
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/acmedb.php" />
         <option value="$PROJECT_DIR$/displayCourses.php" />
         <option value="$PROJECT_DIR$/displayCoursesTable.php" />
+        <option value="$PROJECT_DIR$/acmedb.php" />
       </list>
     </option>
   </component>
@@ -351,12 +350,12 @@
       <workItem from="1493150922259" duration="16564000" />
       <workItem from="1493310467726" duration="3490000" />
       <workItem from="1493489385186" duration="17659000" />
-      <workItem from="1493605303305" duration="4387000" />
+      <workItem from="1493605303305" duration="4549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81863000" />
+    <option name="totallyTimeSpent" value="82025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -424,31 +423,30 @@
         <state relative-caret-position="525">
           <caret line="35" column="82" lean-forward="true" selection-start-line="35" selection-start-column="82" selection-end-line="35" selection-end-column="82" />
           <folding>
-            <marker date="1493610187752" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
-            <marker date="1493610187752" expanded="true" signature="2280:2319" ph="SELECT passw... users" />
-            <marker date="1493610187752" expanded="true" signature="2280:2320" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="2280:2323" ph="SELECT passw... users" />
-            <marker date="1493610187752" expanded="true" signature="2280:2355" ph="SELECT FROM `users`... " />
-            <marker date="1493610187752" expanded="true" signature="2280:2356" ph="SELECT FROM `users`... " />
-            <marker date="1493610187752" expanded="true" signature="2280:2375" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="3249:3269" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="3249:3270" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="3620:3634" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="3620:3643" ph="SELECT * FRO... courses" />
-            <marker date="1493610187752" expanded="true" signature="3992:4018" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4025" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4035" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4055" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4056" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4102" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="4196:4240" ph="SELECT * FRO... courses" />
-            <marker date="1493610187752" expanded="true" signature="4196:4261" ph="SELECT * FRO... courses" />
-            <marker date="1493610187752" expanded="true" signature="4656:4702" ph="SELECT fname... users" />
-            <marker date="1493610187752" expanded="true" signature="4808:4854" ph="SELECT lname... users" />
-            <marker date="1493610187752" expanded="true" signature="5566:5600" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="5566:5611" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="5566:5612" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="5566:5613" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
+            <marker date="1493610736543" expanded="true" signature="2280:2319" ph="SELECT passw... users" />
+            <marker date="1493610736543" expanded="true" signature="2280:2320" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="2280:2323" ph="SELECT passw... users" />
+            <marker date="1493610736543" expanded="true" signature="2280:2355" ph="SELECT FROM `users`... " />
+            <marker date="1493610736543" expanded="true" signature="2280:2356" ph="SELECT FROM `users`... " />
+            <marker date="1493610736543" expanded="true" signature="2280:2375" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3249:3269" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3249:3270" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3620:3634" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3620:3643" ph="SELECT * FRO... courses" />
+            <marker date="1493610736543" expanded="true" signature="3992:4018" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4025" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4035" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4055" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4056" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4102" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="4196:4240" ph="SELECT * FRO... courses" />
+            <marker date="1493610736543" expanded="true" signature="4196:4261" ph="SELECT * FRO... courses" />
+            <marker date="1493610736543" expanded="true" signature="4657:4699" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5474" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5485" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5486" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5487" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -537,31 +535,30 @@
         <state relative-caret-position="420">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1493610187752" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
-            <marker date="1493610187752" expanded="true" signature="2280:2319" ph="SELECT passw... users" />
-            <marker date="1493610187752" expanded="true" signature="2280:2320" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="2280:2323" ph="SELECT passw... users" />
-            <marker date="1493610187752" expanded="true" signature="2280:2355" ph="SELECT FROM `users`... " />
-            <marker date="1493610187752" expanded="true" signature="2280:2356" ph="SELECT FROM `users`... " />
-            <marker date="1493610187752" expanded="true" signature="2280:2375" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="3249:3269" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="3249:3270" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="3620:3634" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="3620:3643" ph="SELECT * FRO... courses" />
-            <marker date="1493610187752" expanded="true" signature="3992:4018" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4025" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4035" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4055" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4056" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4102" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="4196:4240" ph="SELECT * FRO... courses" />
-            <marker date="1493610187752" expanded="true" signature="4196:4261" ph="SELECT * FRO... courses" />
-            <marker date="1493610187752" expanded="true" signature="4656:4702" ph="SELECT fname... users" />
-            <marker date="1493610187752" expanded="true" signature="4808:4854" ph="SELECT lname... users" />
-            <marker date="1493610187752" expanded="true" signature="5566:5600" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="5566:5611" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="5566:5612" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="5566:5613" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
+            <marker date="1493610736543" expanded="true" signature="2280:2319" ph="SELECT passw... users" />
+            <marker date="1493610736543" expanded="true" signature="2280:2320" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="2280:2323" ph="SELECT passw... users" />
+            <marker date="1493610736543" expanded="true" signature="2280:2355" ph="SELECT FROM `users`... " />
+            <marker date="1493610736543" expanded="true" signature="2280:2356" ph="SELECT FROM `users`... " />
+            <marker date="1493610736543" expanded="true" signature="2280:2375" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3249:3269" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3249:3270" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3620:3634" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3620:3643" ph="SELECT * FRO... courses" />
+            <marker date="1493610736543" expanded="true" signature="3992:4018" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4025" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4035" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4055" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4056" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4102" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="4196:4240" ph="SELECT * FRO... courses" />
+            <marker date="1493610736543" expanded="true" signature="4196:4261" ph="SELECT * FRO... courses" />
+            <marker date="1493610736543" expanded="true" signature="4657:4699" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5474" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5485" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5486" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5487" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -835,6 +832,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/displayCoursesTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <marker date="1493610577863" expanded="true" signature="217:364" ph="..." />
+            <marker date="1493610577863" expanded="true" signature="226:362" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/displayusersTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -849,44 +857,32 @@
     <entry file="file://$PROJECT_DIR$/acmedb.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="118" column="59" lean-forward="false" selection-start-line="118" selection-start-column="59" selection-end-line="118" selection-end-column="59" />
+          <caret line="121" column="54" lean-forward="true" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
           <folding>
-            <marker date="1493610187752" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
-            <marker date="1493610187752" expanded="true" signature="2280:2319" ph="SELECT passw... users" />
-            <marker date="1493610187752" expanded="true" signature="2280:2320" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="2280:2323" ph="SELECT passw... users" />
-            <marker date="1493610187752" expanded="true" signature="2280:2355" ph="SELECT FROM `users`... " />
-            <marker date="1493610187752" expanded="true" signature="2280:2356" ph="SELECT FROM `users`... " />
-            <marker date="1493610187752" expanded="true" signature="2280:2375" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="3249:3269" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="3249:3270" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="3620:3634" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="3620:3643" ph="SELECT * FRO... courses" />
-            <marker date="1493610187752" expanded="true" signature="3992:4018" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4025" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4035" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4055" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4056" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="3992:4102" ph="SELECT * FRO... enrollment" />
-            <marker date="1493610187752" expanded="true" signature="4196:4240" ph="SELECT * FRO... courses" />
-            <marker date="1493610187752" expanded="true" signature="4196:4261" ph="SELECT * FRO... courses" />
-            <marker date="1493610187752" expanded="true" signature="4656:4702" ph="SELECT fname... users" />
-            <marker date="1493610187752" expanded="true" signature="4808:4854" ph="SELECT lname... users" />
-            <marker date="1493610187752" expanded="true" signature="5566:5600" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="5566:5611" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="5566:5612" ph="SELECT * FRO... users" />
-            <marker date="1493610187752" expanded="true" signature="5566:5613" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/displayCoursesTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-          <folding>
-            <marker date="1493610577863" expanded="true" signature="217:364" ph="..." />
-            <marker date="1493610577863" expanded="true" signature="226:362" ph="..." />
+            <marker date="1493610736543" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
+            <marker date="1493610736543" expanded="true" signature="2280:2319" ph="SELECT passw... users" />
+            <marker date="1493610736543" expanded="true" signature="2280:2320" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="2280:2323" ph="SELECT passw... users" />
+            <marker date="1493610736543" expanded="true" signature="2280:2355" ph="SELECT FROM `users`... " />
+            <marker date="1493610736543" expanded="true" signature="2280:2356" ph="SELECT FROM `users`... " />
+            <marker date="1493610736543" expanded="true" signature="2280:2375" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3249:3269" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3249:3270" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3620:3634" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3620:3643" ph="SELECT * FRO... courses" />
+            <marker date="1493610736543" expanded="true" signature="3992:4018" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4025" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4035" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4055" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4056" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4102" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="4196:4240" ph="SELECT * FRO... courses" />
+            <marker date="1493610736543" expanded="true" signature="4196:4261" ph="SELECT * FRO... courses" />
+            <marker date="1493610736543" expanded="true" signature="4657:4699" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5474" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5485" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5486" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5487" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>

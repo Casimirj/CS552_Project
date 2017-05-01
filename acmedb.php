@@ -115,15 +115,11 @@ class Acmedb {
     public function getName($id){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
-        $sql = "SELECT fname FROM `users` WHERE id = '".$id."'";
+
+        $sql = "SELECT * FROM `users` WHERE id = '".$id."'";
         $result = mysqli_query($link, $sql)->fetch_assoc();
 
-        $name = $result;
-
-        $sql = "SELECT lname FROM `users` WHERE id = '".$id."'";
-        $result = mysqli_query($link, $sql)->fetch_assoc();
-
-        $name .= $result;
+        $name = $result['fname']." ".$result['lname'];
 
 
         return $name;
