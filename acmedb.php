@@ -50,6 +50,15 @@ class Acmedb {
         }
 
     }
+    public function delete_user($id){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+
+        $sql = "DELETE FROM `users` WHERE id='".$id."'";
+        mysqli_query($link, $sql);
+
+        mysqli_close($link);
+    }
 
     public function login($usernameinput, $passwordinput){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
