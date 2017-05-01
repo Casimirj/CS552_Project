@@ -35,7 +35,7 @@ while($row = mysqli_fetch_array($result))
         "<td>" . $row['lname'] . "</td>".
         "<td>" . $row['username'] . "</td>".
         "<td>" . $row['email'] . "</td>");
-        if($_SESSION['userType'] == 1 || $_SESSION['userType'] == 3){
+        if($_SESSION['usertype'] == 1 || $_SESSION['usertype'] == 3){
             echo "<td><a href=\"deleteUser.php?id=".$row['id']."\">Delete</a></td>";
         }
 
