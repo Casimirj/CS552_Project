@@ -5,18 +5,19 @@
 <div class="createuserwrapper">
     <form method="post" action="acmedbCreateCourse.php">
 
-        <div class="createusertextwrapper">
-            <div class="createusertext">First Name</div>
-            <div class="createusertext">Last Name</div>
-            <div class="createusertext">Email Address</div>
-            <div class="createusertext">User Name</div>
-            <div class="createusertext">Password</div>
-            <div class="createusertext">Re-Enter your Password</div>
-            <?php if($_SESSION['usertype'] == 1){
-                echo("
-                <div class=\"createusertext\">User Type</div>
-                ");
-            }?>
+        <?php
+
+            if(isset($_GET['id'])){
+
+            }
+            else{
+                $_SESSION['target'] = "createCourse.php?id=";
+                $_SESSION['targetname'] = "Select";
+                include("displayUsersTable.php");
+            }
+
+
+        ?>
         </div>
         <div class="createuserinputwrapper">
             <input id="fnameinput" class="createuserinput" placeholder="First Name" name="fnameinput">
