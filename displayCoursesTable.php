@@ -14,7 +14,7 @@ $result = $database->getCourses();
 
 
 echo ("
-    <table class='displayuserstable'>
+    <table class='displaystable'>
     <tr>
         <th>ID</th>
         <th>Instructor</th>

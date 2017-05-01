@@ -15,7 +15,7 @@ $result = $database->getUsers();
 
 
 echo ("
-    <table class='displayuserstable'>
+    <table class='displaytable'>
     <tr>
         <th>ID</th>
         <th>First Name</th>

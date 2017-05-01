@@ -66,9 +66,40 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
                 <state relative-caret-position="185">
                   <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
                   <folding />
+=======
+                <state relative-caret-position="137">
+                  <caret line="121" column="54" lean-forward="true" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
+                  <folding>
+                    <marker date="1493610736543" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
+                    <marker date="1493610736543" expanded="true" signature="2280:2319" ph="SELECT passw... users" />
+                    <marker date="1493610736543" expanded="true" signature="2280:2320" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="2280:2323" ph="SELECT passw... users" />
+                    <marker date="1493610736543" expanded="true" signature="2280:2355" ph="SELECT FROM `users`... " />
+                    <marker date="1493610736543" expanded="true" signature="2280:2356" ph="SELECT FROM `users`... " />
+                    <marker date="1493610736543" expanded="true" signature="2280:2375" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="3249:3269" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="3249:3270" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="3620:3634" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="3620:3643" ph="SELECT * FRO... courses" />
+                    <marker date="1493610736543" expanded="true" signature="3992:4018" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493610736543" expanded="true" signature="3992:4025" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493610736543" expanded="true" signature="3992:4035" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493610736543" expanded="true" signature="3992:4055" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493610736543" expanded="true" signature="3992:4056" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493610736543" expanded="true" signature="3992:4102" ph="SELECT * FRO... enrollment" />
+                    <marker date="1493610736543" expanded="true" signature="4196:4240" ph="SELECT * FRO... courses" />
+                    <marker date="1493610736543" expanded="true" signature="4196:4261" ph="SELECT * FRO... courses" />
+                    <marker date="1493610736543" expanded="true" signature="4657:4699" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="5440:5474" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="5440:5485" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="5440:5486" ph="SELECT * FRO... users" />
+                    <marker date="1493610736543" expanded="true" signature="5440:5487" ph="SELECT * FRO... users" />
+                  </folding>
+>>>>>>> Stashed changes
                 </state>
               </provider>
             </entry>
@@ -76,8 +107,13 @@
           <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/home.php">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
                 <state relative-caret-position="238">
                   <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+=======
+                <state relative-caret-position="165">
+                  <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+>>>>>>> Stashed changes
                   <folding>
                     <marker date="1493671684194" expanded="true" signature="139:578" ph="..." />
                     <marker date="1493671684194" expanded="true" signature="682:2049" ph="..." />
@@ -102,8 +138,13 @@
           <file leaf-file-name="displayCoursesTable.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/displayCoursesTable.php">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
                 <state relative-caret-position="238">
                   <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+=======
+                <state relative-caret-position="495">
+                  <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+>>>>>>> Stashed changes
                   <folding>
                     <marker date="1493671643457" expanded="true" signature="217:364" ph="..." />
                     <marker date="1493671643457" expanded="true" signature="226:362" ph="..." />
@@ -412,11 +453,12 @@
       <workItem from="1493150922259" duration="16564000" />
       <workItem from="1493310467726" duration="3490000" />
       <workItem from="1493489385186" duration="17659000" />
-      <workItem from="1493605303305" duration="4549000" />
+      <workItem from="1493605303305" duration="5282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="85690000" />
   </component>
   <component name="TodoView">
@@ -427,6 +469,9 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+=======
+    <option name="totallyTimeSpent" value="82758000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-1688" y="15" width="1696" height="1026" extended-state="6" />
@@ -806,8 +851,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/displayCoursesTable.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="238">
           <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+=======
+        <state relative-caret-position="495">
+          <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+>>>>>>> Stashed changes
           <folding>
             <marker date="1493671643457" expanded="true" signature="217:364" ph="..." />
             <marker date="1493671643457" expanded="true" signature="226:362" ph="..." />
@@ -817,17 +867,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acmedbDeleteUser.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="165">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <marker date="1493607029539" expanded="true" signature="214:359" ph="..." />
+            <marker date="1493607029539" expanded="true" signature="223:357" ph="..." />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acmedbDeleteCourse.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="137">
+          <caret line="121" column="54" lean-forward="true" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
+          <folding>
+            <marker date="1493610736543" expanded="true" signature="1259:1437" ph="INSERT INTO `users`... " />
+            <marker date="1493610736543" expanded="true" signature="2280:2319" ph="SELECT passw... users" />
+            <marker date="1493610736543" expanded="true" signature="2280:2320" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="2280:2323" ph="SELECT passw... users" />
+            <marker date="1493610736543" expanded="true" signature="2280:2355" ph="SELECT FROM `users`... " />
+            <marker date="1493610736543" expanded="true" signature="2280:2356" ph="SELECT FROM `users`... " />
+            <marker date="1493610736543" expanded="true" signature="2280:2375" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3249:3269" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3249:3270" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3620:3634" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="3620:3643" ph="SELECT * FRO... courses" />
+            <marker date="1493610736543" expanded="true" signature="3992:4018" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4025" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4035" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4055" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4056" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="3992:4102" ph="SELECT * FRO... enrollment" />
+            <marker date="1493610736543" expanded="true" signature="4196:4240" ph="SELECT * FRO... courses" />
+            <marker date="1493610736543" expanded="true" signature="4196:4261" ph="SELECT * FRO... courses" />
+            <marker date="1493610736543" expanded="true" signature="4657:4699" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5474" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5485" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5486" ph="SELECT * FRO... users" />
+            <marker date="1493610736543" expanded="true" signature="5440:5487" ph="SELECT * FRO... users" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
