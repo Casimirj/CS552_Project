@@ -36,11 +36,13 @@ while($row = mysqli_fetch_array($result))
         "<td>" . $row['beginTime'] . "</td>".
         "<td>" . $row['endTime'] . "</td>".
         "<td>" . $row['totalTime'] . "</td>");
-        if($_SESSION['usertype'] == 1 || $_SESSION['usertype'] == 3){
-            echo "<td><a href=\"acmedbDeleteCourse.php?id=".$row['id']."\">Delete</a></td>";
-        }
+    if($_SESSION['usertype'] == 1 || $_SESSION['usertype'] == 3){
+        $target = $_SESSION['target'];
+        $targetname = $_SESSION['targetname'];
 
-        echo"</tr>";
+        echo "<td><a href=".$target."".$row['id']."\">".$targetname."</a></td>";
+    }
+    echo"</tr>";
 }
 
 
