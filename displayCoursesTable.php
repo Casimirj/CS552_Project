@@ -35,11 +35,12 @@ while($row = mysqli_fetch_array($result))
         "<td>" . $name . "</td>".
         "<td>" . $row['beginTime'] . "</td>".
         "<td>" . $row['endTime'] . "</td>".
-        "<td>" . $row['totalTime'] . "</td>".
-        "</tr>"
-    );
+        "<td>" . $row['totalTime'] . "</td>");
+        if($_SESSION['usertype'] == 1 || $_SESSION['usertype'] == 3){
+            echo "<td><a href=\"acmedbDeleteCourse.php?id=".$row['id']."\">Delete</a></td>";
+        }
 
-
+        echo"</tr>";
 }
 
 

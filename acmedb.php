@@ -87,6 +87,15 @@ class Acmedb {
 
     }
 
+    public function delete_course($id){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+
+        $sql = "DELETE FROM `courses` WHERE id='".$id."'";
+        mysqli_query($link, $sql);
+
+    }
+
     public function getUsers(){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
