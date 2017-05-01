@@ -5,7 +5,7 @@ require("acmedb.php");
 
 
 
-echo "<h1 class='displayusersheader'>Users</h1>";
+echo "<h1 class='displayusersheader'>Courses</h1>";
 
 
 $database = new Acmedb();
@@ -27,12 +27,13 @@ echo ("
 
 while($row = mysqli_fetch_array($result))
 {
-    $name = $row['employeeID'];
+    $name = $database->getName($row['instructorID']);
+
     echo(
         "<tr>" .
         "<td><a href=''>" . $row['id']. "</a></td>".
         "<td>" . $name . "</td>".
-        "<td>" . $row['startTime'] . "</td>".
+        "<td>" . $row['beginTime'] . "</td>".
         "<td>" . $row['endTime'] . "</td>".
         "<td>" . $row['totalTime'] . "</td>".
         "</tr>"

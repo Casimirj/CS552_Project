@@ -104,10 +104,10 @@
             <entry file="file://$PROJECT_DIR$/displayCoursesTable.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="435">
-                  <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+                  <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
                   <folding>
-                    <marker date="1493610187757" expanded="true" signature="215:362" ph="..." />
-                    <marker date="1493610187757" expanded="true" signature="224:360" ph="..." />
+                    <marker date="1493610577863" expanded="true" signature="217:364" ph="..." />
+                    <marker date="1493610577863" expanded="true" signature="226:362" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -177,8 +177,8 @@
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/acmedb.php" />
-        <option value="$PROJECT_DIR$/displayCoursesTable.php" />
         <option value="$PROJECT_DIR$/displayCourses.php" />
+        <option value="$PROJECT_DIR$/displayCoursesTable.php" />
       </list>
     </option>
   </component>
@@ -351,12 +351,12 @@
       <workItem from="1493150922259" duration="16564000" />
       <workItem from="1493310467726" duration="3490000" />
       <workItem from="1493489385186" duration="17659000" />
-      <workItem from="1493605303305" duration="4057000" />
+      <workItem from="1493605303305" duration="4387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81533000" />
+    <option name="totallyTimeSpent" value="81863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -827,6 +827,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/displayCourses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/displayusersTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <marker date="1493607029539" expanded="true" signature="214:359" ph="..." />
+            <marker date="1493607029539" expanded="true" signature="223:357" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/acmedb.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -861,32 +880,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/displayCourses.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/displayusersTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <marker date="1493607029539" expanded="true" signature="214:359" ph="..." />
-            <marker date="1493607029539" expanded="true" signature="223:357" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/displayCoursesTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
           <folding>
-            <marker date="1493610187757" expanded="true" signature="215:362" ph="..." />
-            <marker date="1493610187757" expanded="true" signature="224:360" ph="..." />
+            <marker date="1493610577863" expanded="true" signature="217:364" ph="..." />
+            <marker date="1493610577863" expanded="true" signature="226:362" ph="..." />
           </folding>
         </state>
       </provider>
