@@ -7,10 +7,10 @@ $database->connect();
 $id = (int)$_GET['id'];
 
 
-if($_SESSION['usertype'] == 1 || $_SESSION['usertype'] == 3 ){
+//if($_SESSION['usertype'] == 1 || $_SESSION['usertype'] == 3 ){
     $database->delete_user($id);
     header("Location: home.php");
-}
+//}
 
 
 
