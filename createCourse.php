@@ -1,7 +1,7 @@
 <?php include("header.php");?>
 
 
-<div class="createaccounttoptext">Create an Account</div>
+<div class="createaccounttoptext">Create an Course</div>
 <div class="createuserwrapper">
     <form method="post" action="acmedbCreateCourse.php">
 
@@ -20,6 +20,7 @@
             else{
                 $_SESSION['target'] = "createCourse.php?id=";
                 $_SESSION['targetname'] = "Select";
+                $_SESSION['targetheader'] = "";
                 include("displayUsersTable.php");
             }
 
