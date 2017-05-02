@@ -100,8 +100,17 @@ class Acmedb {
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
         $totaltime = $endtime - $begintime;
         $sql = "INSERT INTO `courses`(`beginTime`, `endTime`, `totalTime`, `instructorID`) VALUES ('$begintime', '$endtime', '$totaltime' , '$employeeid')";
-        mysqli_query($link, $sql);
-
+        if(mysqli_query($link, $sql)){
+            if (($aff_rows = mysqli_affected_rows($link)) > 0) {
+                echo "New record created successfully ($aff_rows)";
+            } else {
+                echo "Query Logic Error: $sql";
+            }
+        } else {
+            echo "Syntax Error:: ", mysqli_error($link);
+        
+        }
+        mysqli_close($link);
     }
 
     public function getUsers(){
