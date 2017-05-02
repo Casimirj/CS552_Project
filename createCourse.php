@@ -21,7 +21,7 @@
                 $_SESSION['target'] = "createCourse.php?id=";
                 $_SESSION['targetname'] = "Select";
                 $_SESSION['targetheader'] = "Select a trainer";
-                include("displayUsersTable.php");
+                include("displayemployeesTable.php");
             }
 
 
