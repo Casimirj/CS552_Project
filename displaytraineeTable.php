@@ -11,11 +11,8 @@ echo "<h1 class='displayusersheader'>".$_SESSION['targetheader']."</h1>";
 
 $database = new Acmedb();
 $database->connect();
-if(isset($_GET['id'])){
+$result = $database->getUsersofType(0);
 
-}else {
-    $result = $database->getUsers();
-}
 
 echo ("
     <table class='displaytable'>
@@ -38,14 +35,14 @@ while($row = mysqli_fetch_array($result))
         "<td>" . $row['lname'] . "</td>".
         "<td>" . $row['username'] . "</td>".
         "<td>" . $row['email'] . "</td>");
-        if($_SESSION['usertype'] == 1 || $_SESSION['usertype'] == 3){
-            $target = $_SESSION['target'];
-            $targetname = $_SESSION['targetname'];
+    if($_SESSION['usertype'] == 1 || $_SESSION['usertype'] == 3){
+        $target = $_SESSION['target'];
+        $targetname = $_SESSION['targetname'];
 
-            echo "<td><a href=".$target."".$row['id']."\">".$targetname."</a></td>";
-        }
+        echo "<td><a href=".$target."".$row['id']."\">".$targetname."</a></td>";
+    }
 
-        echo"</tr>";
+    echo"</tr>";
 
 
 }

@@ -121,6 +121,14 @@ class Acmedb {
 
         return $result;
     }
+    public function getUser($id){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+        $sql = "SELECT * FROM `users` where id='".$id."'";
+        $result = mysqli_query($link, $sql);
+
+        return $result;
+    }
     public function getUsersofType($usertype){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);

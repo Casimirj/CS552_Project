@@ -5,7 +5,7 @@ require("acmedb.php");
 
 
 
-echo "<h1 class='displayusersheader'>Courses</h1>";
+echo "<h1 class='displayusersheader'>".$_SESSION['targetheader']."</h1>";
 
 
 $database = new Acmedb();
