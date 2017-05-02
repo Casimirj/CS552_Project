@@ -12,7 +12,7 @@ echo "<h1 class='displayusersheader'>".$_SESSION['targetheader']."</h1>";
 $database = new Acmedb();
 $database->connect();
 if(isset($_GET['id'])){
-
+    $result = $database->getUser($_GET['id']);
 }else {
     $result = $database->getUsers();
 }
