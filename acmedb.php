@@ -99,7 +99,7 @@ class Acmedb {
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
         $totaltime = $endtime - $begintime;
-        $sql = "INSERT INTO `courses` (`begintime`, `endtime`, `totaltime`, `instructorid`) VALUES ($begintime, $endtime, $totaltime , $employeeid)";
+        $sql = "INSERT INTO `courses` (`beginTime`, `endTime`, `totalTime`, `instructorID`) VALUES ($begintime, $endtime, $totaltime , $employeeid)";
         mysqli_query($link, $sql);
 
     }
