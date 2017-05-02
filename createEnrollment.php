@@ -23,8 +23,8 @@
             else{
                 $_SESSION['target'] = "createEnrollment.php?uid=".$_GET['uid']."&cid=";
                 $_SESSION['targetname'] = "Select";
-                $_SESSION['targetheader'] = "Select a trainer";
-                include("displaytraineeTable.php");
+                $_SESSION['targetheader'] = "Select a Course";
+                include("displayCoursesTable.php");
             }
 
 
@@ -32,8 +32,10 @@
         else{
             $_SESSION['target'] = "createEnrollment.php?uid=";
             $_SESSION['targetname'] = "Select";
-            $_SESSION['targetheader'] = "Select a User";
-            include("displayCoursesTable.php");
+            $_SESSION['targetheader'] = "Select a trainee";
+            include("displaytraineeTable.php");
+
+
         }
 
 
