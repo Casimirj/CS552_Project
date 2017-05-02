@@ -13,5 +13,5 @@ $endtime = $_POST['endtimeinput'];
 
 $database->create_course($begintime, $endtime, $trainer);
 
-header('location: home.php');
+
 
