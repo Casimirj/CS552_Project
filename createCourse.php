@@ -8,7 +8,7 @@
         <?php
 
             if(isset($_GET['id'])){
-                $_POST['employeeID'] = $_GET['$id'];
+                $_POST['employeeID'] = (int)$_GET['$id'];
                 echo"
                 <div class=\"createuserinputwrapper\">
                     <input id='begintimeinput' class=\"createuserinput\" placeholder='Begining Time' name='begintimeinput'>
