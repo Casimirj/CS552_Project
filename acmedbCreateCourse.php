@@ -7,7 +7,7 @@ $database->connect();
 
 $trainer = $_POST['employeeID'];
 $begintime = $_POST['begintimeinput'];
-$endtime = $_POST['endtimeinput'];
+$endtime = (int)$_POST['endtimeinput'];
 
 
 echo $trainer;
