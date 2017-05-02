@@ -11,12 +11,8 @@
                 $_POST['employeeID'] = $_GET['$id'];
                 echo"
                 <div class=\"createuserinputwrapper\">
-                    <input id=\"fnameinput\" class=\"createuserinput\" placeholder=\"First Name\" name=\"fnameinput\">
-                    <input id=\"lnameinput\" class=\"createuserinput\" placeholder=\"Last Name\" name=\"lnameinput\">
-                    <input id=\"emailinput\" class=\"createuserinput\" placeholder=\"Email Address\" name=\"emailinput\">
-                    <input id=\"logininput\" class=\"createuserinput\" placeholder=\"Username\" name=\"usernameinput\">
-                    <input id=\"passinput\" class=\"createuserinput\" placeholder=\"Password\" name=\"passinput\" type=\"password\">
-                    <input id=\"passvalidate\" class=\"createuserinput\" Placeholder=\"Password\" name=\"passvalidate\" type=\"password\">
+                    <input id='begintimeinput' class=\"createuserinput\" placeholder='Begining Time' name='begintimeinput'>
+                    <input id='endtimeinput' class=\"createuserinput\" placeholder='Ending Time Time' name='endtimeinput'>
 
                 </div>";
 
