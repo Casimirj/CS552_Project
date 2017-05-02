@@ -11,7 +11,7 @@ $endtime = $_POST['endtimeinput'];
 
 
 
-$database->create_course($begintime, $endtime, $trainer);
+$database->create_course($trainer, $begintime, $endtime);
 
 
 

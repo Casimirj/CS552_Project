@@ -108,7 +108,7 @@ class Acmedb {
             }
         } else {
             echo "Syntax Error:: ", mysqli_error($link);
-        
+
         }
         mysqli_close($link);
     }
