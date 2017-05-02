@@ -5,9 +5,9 @@ $database = new Acmedb();
 
 $database->connect();
 
-$trainer = $_POST['employeeID'];
+$trainer = (int)$_POST['employeeID'];
 $begintime = $_POST['begintimeinput'];
-$endtime = (int)$_POST['endtimeinput'];
+$endtime = $_POST['endtimeinput'];
 
 
 echo $trainer;
