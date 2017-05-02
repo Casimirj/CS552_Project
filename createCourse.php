@@ -12,7 +12,7 @@
                 echo"
                 <div class=\"createuserinputwrapper\">
                     <input id='begintimeinput' class=\"createuserinput\" placeholder='Begining Time' name='begintimeinput'>
-                    <input id='endtimeinput' class=\"createuserinput\" placeholder='Ending Time Time' name='endtimeinput'>
+                    <input id='endtimeinput' class=\"createuserinput\" placeholder='Ending Time' name='endtimeinput'>
 
                 </div>";
 
@@ -29,7 +29,7 @@
 
 
 
-        <input id=createuserbutton class="acmebutton" type="submit" value="Create Account">
+        <input id=createuserbutton class="acmebutton" type="submit" value="Create Course">
     </form>
 
 </div>

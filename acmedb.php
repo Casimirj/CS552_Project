@@ -95,6 +95,14 @@ class Acmedb {
         mysqli_query($link, $sql);
 
     }
+    public function create_course($employeeid, $begintime, $endtime){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+        $totaltime = $endtime - $begintime;
+        $sql = "INSERT INTO `courses` (`begintime`, `endtime`, `totaltime`, `instructorid`) VALUES ($begintime, $endtime, $totaltime , $employeeid)";
+        mysqli_query($link, $sql);
+
+    }
 
     public function getUsers(){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
