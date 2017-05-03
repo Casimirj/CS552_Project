@@ -5,8 +5,8 @@ $database = new Acmedb();
 
 $database->connect();
 
-$userid = $_POST['uid'];
-$courseid = $_POST['cid'];
+$userid = (int)$_POST['uid'];
+$courseid = (int)$_POST['cid'];
 
 $database->create_enrollment($userid, $courseid);
 
