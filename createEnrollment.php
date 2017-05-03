@@ -9,10 +9,7 @@
 
         if(isset($_GET['uid'])){
             if(isset($_GET['cid'])){
-                $_SESSION['target'] = "createEnrollment.php?uid=";
-                $_SESSION['targetname'] = "Select";
-                $_SESSION['targetheader'] = "So you are enrolling";
-                include("displayusersTable.php?id=".$_GET['uid']);
+
 
 
 
