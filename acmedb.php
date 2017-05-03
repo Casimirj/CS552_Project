@@ -115,7 +115,7 @@ class Acmedb {
     public function create_enrollment($userid, $courseid){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
-        $sql = "INSERT INTO `enrollments`(`courseID`, `userID`) VALUES ('$courseid', '$userid')";
+        $sql = "INSERT INTO `enrollment`(`courseID`, `userID`) VALUES ('$courseid', '$userid')";
         if(mysqli_query($link, $sql)){
             if (($aff_rows = mysqli_affected_rows($link)) > 0) {
                 echo "New record created successfully ($aff_rows)";
