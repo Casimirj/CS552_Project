@@ -112,6 +112,22 @@ class Acmedb {
         }
         mysqli_close($link);
     }
+    public function create_enrollment($userid, $courseid){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+        $sql = "INSERT INTO `courses`(`courseID`, `userID`, `paid`) VALUES ('$courseid', '$userid')";
+        if(mysqli_query($link, $sql)){
+            if (($aff_rows = mysqli_affected_rows($link)) > 0) {
+                echo "New record created successfully ($aff_rows)";
+            } else {
+                echo "Query Logic Error: $sql";
+            }
+        } else {
+            echo "Syntax Error:: ", mysqli_error($link);
+
+        }
+        mysqli_close($link);
+    }
 
     public function getUsers(){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;

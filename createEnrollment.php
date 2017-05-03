@@ -3,7 +3,7 @@
 
 <div class="createaccounttoptext">Create an Course</div>
 <div class="createuserwrapper">
-    <form method="post" action="acmedbCreateCourse.php">
+    <form method="post" action="acmedbCreateEnrollment.php">
 
         <?php
 
@@ -18,7 +18,7 @@
 
 
                 echo"<input type='hidden' name='userID' value='".$_GET['uid']."'>";
-                echo"<input type='hidden' name='userID' value='".$_GET['uid']."'>";
+                echo"<input type='hidden' name='couseID' value='".$_GET['cid']."'>";
             }
             else{
                 $_SESSION['target'] = "createEnrollment.php?uid=".$_GET['uid']."&cid=";
