@@ -8,11 +8,7 @@ $database->connect();
 $userid = $_POST['uid'];
 $courseid = $_POST['cid'];
 
-
-if($password === $passvalidate){
-    $database->create_enrollment();
-}
-
+$database->create_enrollment($userid, $courseid);
 
 
 if(isset($_SESSION['loggedin'])){
