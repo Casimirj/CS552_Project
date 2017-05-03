@@ -14,8 +14,8 @@
 
 
 
-                echo"<input type='hidden' name='userID' value='".$_GET['uid']."'>";
-                echo"<input type='hidden' name='couseID' value='".$_GET['cid']."'>";
+                echo"<input type='hidden' name='uid' value='".$_GET['uid']."'>";
+                echo"<input type='hidden' name='cid' value='".$_GET['cid']."'>";
             }
             else{
                 $_SESSION['target'] = "createEnrollment.php?uid=".$_GET['uid']."&cid=";
