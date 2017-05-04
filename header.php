@@ -29,38 +29,7 @@
     <a href="home.php"><div class="col-sm-2 acmelogo"></div></a>
     <div class="col-sm-7"></div>
     <div class="col-sm-3 profile">
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn"><?php echo $_SESSION['name'];?></button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#home">Logout</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-
-        <script>
-            /* When the user clicks on the button,
-             toggle between hiding and showing the dropdown content */
-            function myFunction() {
-                document.getElementById("myDropdown").classList.toggle("show");
-            }
-
-            // Close the dropdown if the user clicks outside of it
-            window.onclick = function(event) {
-                if (!event.target.matches('.dropbtn')) {
-
-                    var dropdowns = document.getElementsByClassName("dropdown-content");
-                    var i;
-                    for (i = 0; i < dropdowns.length; i++) {
-                        var openDropdown = dropdowns[i];
-                        if (openDropdown.classList.contains('show')) {
-                            openDropdown.classList.remove('show');
-                        }
-                    }
-                }
-            }
-        </script>
-        <!--<div><?php echo $_SESSION['name'];?></div><div class="material-icons" style="margin-right:20px">face</div>-->
+        <div><?php echo $_SESSION['name'];?></div><div class="material-icons" style="margin-right:20px">face</div>
     </div>
 </div>
 
