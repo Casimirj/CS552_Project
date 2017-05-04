@@ -3,7 +3,6 @@
 require("acmedb.php");
 
 
-if(isset($_GET['uid'])){
     echo "<h1 class='displayusersheader'>".$_SESSION['targetheader']."</h1>";
 
 
@@ -57,18 +56,8 @@ if(isset($_GET['uid'])){
 
 
     echo "</table>";
-}
-else{
-    $_SESSION['target'] = "displayEnrollmentsTable.php?uid=";
-    $_SESSION['targetname'] = "Select";
-    $_SESSION['targetheader'] = "Select a User";
-    include("displaytraineeTable.php");
 
 
-
-
-
-}
 
 
 
