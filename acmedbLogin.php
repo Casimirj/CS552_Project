@@ -27,8 +27,7 @@ if($count == 1){
     header('Location: ../home.php');
 }
 else{
-    echo $result;
-    echo "Login Failed";
+    header('Location: index.php');
 
 }
 

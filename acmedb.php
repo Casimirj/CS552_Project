@@ -95,6 +95,14 @@ class Acmedb {
         mysqli_query($link, $sql);
 
     }
+    public function delete_enrollment($id){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+
+        $sql = "DELETE FROM `enrollment` WHERE id='".$id."'";
+        mysqli_query($link, $sql);
+
+    }
     public function create_course($employeeid, $begintime, $endtime){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
@@ -145,6 +153,26 @@ class Acmedb {
 
         return $result;
     }
+    public function getUserFullName($id){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+        $sql = "SELECT * FROM `users` where id='".$id."'";
+        $result = mysqli_query($link, $sql);
+
+        return $result['fname']." ".$result['lname'];
+    }
+    public function getEmployeeFullNameFromCourseID($id){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+        $sql = "SELECT * FROM `users` where id='".$id."'";
+        $result = mysqli_query($link, $sql);
+
+        $result = $result['instructorID'];
+        $result = $this->getUserFullName($result);
+        return result;
+
+    }
+
     public function getUsersofType($usertype){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
@@ -158,6 +186,27 @@ class Acmedb {
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
         $sql = "SELECT * FROM `courses`";
+        $result = mysqli_query($link, $sql);
+
+        return $result;
+    }
+    public function getCourseTimeSlot($id){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+        $sql = "SELECT * FROM `courses` where id='".$id."'";
+        $result = mysqli_query($link, $sql);
+
+        $output['begintime'] = $result['beginTime'];
+        $output['endtime'] = $result['endTime'];
+        $output['totaltime'] = $result['totalTime'];
+
+        return $result;
+    }
+
+    public function getEnrollments(){
+        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
+        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+        $sql = "SELECT * FROM `enrollment`";
         $result = mysqli_query($link, $sql);
 
         return $result;

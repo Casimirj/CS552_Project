@@ -11,3 +11,4 @@ $courseid = (int)$_POST['cid'];
 $database->create_enrollment($userid, $courseid);
 
 
+header("Location: home.php");
