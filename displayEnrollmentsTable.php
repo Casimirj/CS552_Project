@@ -39,9 +39,9 @@ require("acmedb.php");
             "<td><a href=''>" . $row['id']. "</a></td>".
             "<td>" .$uname . "</td>".
             "<td>" . $iname . "</td>".
-            "<td>" . $times['begintime'] . "</td>".
+            /*"<td>" . $times['begintime'] . "</td>".
             "<td>" . $times['endtime'] . "</td>".
-            "<td>" . $times['totaltime'] . "</td>");
+            "<td>" . $times['totaltime'] . "</td>");*/
         if($_SESSION['usertype'] == 1 || $_SESSION['usertype'] == 3){
             $target = $_SESSION['target'];
             $targetname = $_SESSION['targetname'];
