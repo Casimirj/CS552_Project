@@ -158,8 +158,9 @@ class Acmedb {
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
         $sql = "SELECT * FROM `users` where id='".$id."'";
         $result = mysqli_query($link, $sql);
+        $output = $result['fname']." ".$result['lname'];
 
-        return $result['fname']." ".$result['lname'];
+        return $output;
     }
     public function getEmployeeFullNameFromCourseID($id){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
