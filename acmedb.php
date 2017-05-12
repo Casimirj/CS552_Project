@@ -200,7 +200,7 @@ class Acmedb {
         $output['endtime'] = $result['endTime'];
         $output['totaltime'] = $result['totalTime'];
 
-        return $result;
+        return $output;
     }
 
     public function getEnrollments(){
