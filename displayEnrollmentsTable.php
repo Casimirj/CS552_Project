@@ -38,7 +38,7 @@ require("acmedb.php");
             "<tr>" .
             "<td><a href=''>" . $row['id']. "</a></td>".
             "<td>" .$uname . "</td>".
-            "<td>" . $iname . "</td>");
+            "<td>" . $iname . "</td>".
             "<td>" . $times['begintime'] . "</td>".
             "<td>" . $times['endtime'] . "</td>".
             "<td>" . $times['totaltime'] . "</td>");
