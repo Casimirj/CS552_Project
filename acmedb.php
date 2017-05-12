@@ -160,7 +160,7 @@ class Acmedb {
         $result = mysqli_query($link, $sql)->fetch_assoc();
 
         $result = $result['instructorID'];
-        $result = $this->getUserFullName($result);
+        $result = $this->getName($result);
         return $result;
 
     }
