@@ -28,7 +28,8 @@ require("acmedb.php");
     {
         $uid = $row['userID'];
         $cid = $row['courseID'];
-        $uname = $database->getUserFullName($uid);
+        //$uname = $database->getUserFullName($uid);
+        $uname = "James";
         $iname = "me :)";
         //$iname = $database->getEmployeeFullNameFromCourseID($cid);
         //$times = $database->getCourseTimeSlot($cid);
