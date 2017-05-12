@@ -186,7 +186,7 @@ class Acmedb {
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
         $sql = "SELECT * FROM `courses` where id='".$id."'";
-        $result = mysqli_query($link, $sql);
+        $result = mysqli_query($link, $sql)->fetch_assoc();
 
         $output['begintime'] = $result['beginTime'];
         $output['endtime'] = $result['endTime'];
