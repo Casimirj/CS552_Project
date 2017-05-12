@@ -170,7 +170,7 @@ class Acmedb {
 
         $result = $result['instructorID'];
         $result = $this->getUserFullName($result);
-        return result;
+        return $result;
 
     }
 
