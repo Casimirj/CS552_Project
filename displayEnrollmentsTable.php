@@ -32,7 +32,7 @@ require("acmedb.php");
         $iname = "Daniel Casimir";
         //$uname = $database->getUserFullName($uid);
         //$iname = $database->getEmployeeFullNameFromCourseID($cid);
-        $times = $database->getCourseTimeSlot($cid);
+        //$times = $database->getCourseTimeSlot($cid);
 
 
 
