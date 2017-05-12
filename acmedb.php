@@ -153,20 +153,11 @@ class Acmedb {
 
         return $result;
     }
-    public function getUserFullName($id){
-        global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
-        $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
-        $sql = "SELECT * FROM `users` where id='".$id."'";
-        $result = mysqli_query($link, $sql);
-        $output = $result['fname']." ".$result['lname'];
-
-        return $output;
-    }
     public function getEmployeeFullNameFromCourseID($id){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
         $sql = "SELECT * FROM `users` where id='".$id."'";
-        $result = mysqli_query($link, $sql);
+        $result = mysqli_query($link, $sql)->fetch_assoc();
 
         $result = $result['instructorID'];
         $result = $this->getUserFullName($result);
