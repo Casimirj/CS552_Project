@@ -156,12 +156,12 @@ class Acmedb {
     public function getEmployeeFullNameFromCourseID($id){
         global $connectstr_dbhost, $connectstr_dbname, $connectstr_dbpassword, $connectstr_dbusername;
         $link=mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
-        $sql = "SELECT * FROM `users` where id='".$id."'";
+        $sql = "SELECT * FROM `courses` where id='".$id."'";
         $result = mysqli_query($link, $sql)->fetch_assoc();
 
-        $result = $result['instructorID'];
-        $result = $this->getName($result);
-        return $result;
+        $instID = $result['instructorID'];
+        $output = $this->getName($instID);
+        return $output;
 
     }
 
